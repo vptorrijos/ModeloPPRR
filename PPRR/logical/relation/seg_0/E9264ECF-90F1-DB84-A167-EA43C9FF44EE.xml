@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FAC_INGRESOS_DIM_CALENDAR_FK" directorySegmentName="seg_0" id="E9264ECF-90F1-DB84-A167-EA43C9FF44EE">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>7919802F-309C-E140-4E33-180FCB121074</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<sourcePk>17235D8F-1191-5AD0-345B-54B3B8F7968A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CD9817D3-D6BB-1AE8-5FC9-6047604FA9AD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E40A8043-D1CD-99EF-FAC9-D3E3F6BBCF1C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

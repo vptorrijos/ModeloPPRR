@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F651AE2B-7156-D93D-857A-79B05E8EB2B4" containerWithKeyObject="DF593ACF-5B8E-A2CB-0C65-1DD88E5FB02F" localFKIndex="3A0CC559-8D7D-BDB6-8158-88EB34C21422" name="FAC_VISITANTES_DIM_SUBCANAL_FK">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>CF2F20E3-FED0-B566-4DF5-CBA885FEAFD3</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>D5D4D606-3A18-598D-7C19-F932B9679E20</importedID>
+<referredTableLongName>DIM_SUBCANAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D630522B-DE94-B42F-6BB0-037352E7C774</referredTableID>
+<keyObject>24FE09EC-FF15-67DB-407D-C22D1FE2E7EF</keyObject>
+<referredKeyID>24FE09EC-FF15-67DB-407D-C22D1FE2E7EF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_SUBCANAL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

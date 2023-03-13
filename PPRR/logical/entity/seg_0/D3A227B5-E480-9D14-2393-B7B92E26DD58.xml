@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D3A227B5-E480-9D14-2393-B7B92E26DD58" name="DIM STAGE">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>39D13F8F-92FE-DFD4-A493-3D50C65D5BA1</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<synonymToDisplay>DIM STAGE</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID STAGE" id="19D73653-0F54-C746-696C-D26A31E0A5AA">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>3F757EA5-0A84-E790-F29E-BBFAD6071E76</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD STAGE" id="AC3CA0D9-348D-46A7-8F82-25777B4F0702">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>C75FF0C5-DAAF-B3DD-618B-D0EC6133DA2E</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DES STAGE" id="FAE580E1-9E27-B269-E570-51F1D5801C77">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>57DB00B5-08E7-1EC5-BE20-F48DC423B9B5</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOAD DATE" id="FE626CD6-AE3C-A95E-55F0-EE0ABABA0A7C">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>E645F490-3CAB-760E-F935-461A1473D786</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UPDATE DATE" id="92320107-CA38-1EC8-EADB-6E2714BA72C3">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>64B4E64D-1C83-F12C-6965-E56FAAC81C07</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8A0E0F25-0CE9-6878-16CC-E8B0F87B617E" name="DIM METEOROLOGIA PK">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>FE89AF3E-F21D-1A64-DDD2-2F6614D5E4B0</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>19D73653-0F54-C746-696C-D26A31E0A5AA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

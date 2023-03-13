@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="86D22F0F-E0B5-7C62-F4F2-1D58A66B7685" name="REL_PARKS_PIDMEDIA_FUNNEL_USAPARKS">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>BE2B0617-4DC0-7E21-6CC6-F5CD05A123C0</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_PARK_CORPORATIVE" id="B20CD6DC-1875-C96C-BB31-C8C0A8A3F087">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>29739C67-EE69-4755-5D0C-731D7D8D3491</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PARK_FUNNEL_DATA_USAPARKS" id="A5079496-94FF-8EFE-93AA-17338DF20920">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>C13B7810-FBF6-BC08-E800-68D28A0A352B</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PARK_PAIDMEDIA" id="9EA80A28-EC5A-B81C-B05C-065F5566FDBD">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>9A016134-E039-1BB5-C927-418FC2CEE106</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

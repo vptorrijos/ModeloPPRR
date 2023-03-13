@@ -1,0 +1,237 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF593ACF-5B8E-A2CB-0C65-1DD88E5FB02F" name="FAC_VISITANTES">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tabla de Hechos de Visitantes. la información viene a través de parque y Tiempo. Muestra el nº de visitates el budget en función del parque y el día. Esta información viene del esquema de REVENUE.]]></commentInRDBMS>
+<generatorID>7A3A3D1A-4274-102A-73D1-7CA93DAB34A5</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>75E66807-C3DD-465E-545D-F5CFFC94E3B7</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TIME" id="173F358D-A062-D021-78BD-C1E4379B044A">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>C3730F3D-A668-F1C9-F41B-E3D39E4723B1</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>7F364BAC-0BB8-531B-BA78-F14D5792A2F5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24DE25A3-0317-3853-B81B-984F600997EF" referredColumn="09953DA7-D80B-D37F-C140-D2176A2F23ED"/>
+</associations>
+</Column>
+<Column name="ID_SUBPARK" id="311DF316-4B1C-3F02-7ECA-A9C635072DC7">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>AE02A980-1E97-D689-DF93-4BC5EA9A5962</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>6BEC3889-2A44-25E6-CBC2-A0651C6BBE24</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BEB9183C-036F-AB55-B589-034DDCC70917" referredColumn="F2276D22-5F8D-92C8-5071-73BC12E99093"/>
+</associations>
+</Column>
+<Column name="ID_SUBCANAL" id="4BDF2FAB-1825-9459-CA26-60A7C6D89A6A">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>5254EA3C-1890-ED1A-8E27-75FE786E39A9</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>DB20BB35-EC24-2476-86F4-4A83D9284913</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F651AE2B-7156-D93D-857A-79B05E8EB2B4" referredColumn="6566EAF6-3EBE-2EEC-16A6-5FFFA076E78B"/>
+</associations>
+</Column>
+<Column name="ID_TIPO_TICKET" id="A1E51E46-ABA9-15AF-F035-B5483FF5BFAC">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>53EF5A21-834A-E807-ECF4-1CC3CEFC978E</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>4A267B1C-35B4-6C86-9F8A-23C2F804AEB1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="039D8062-DB38-E4CB-E9A8-D2FA8C025A2B" referredColumn="F782C8CB-5A04-9AFA-6C91-E172A1A80DE2"/>
+</associations>
+</Column>
+<Column name="ID_DIVISA" id="FDBC1ACF-6170-E017-2FB0-DC0DDB973B93">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>466ED6F6-7C7F-591E-45BC-4A623B536FBC</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>E4E2F0C8-6034-6F7A-08C1-B65BE26F6C0B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86323EB6-ABC7-4911-0910-F457D854CF07" referredColumn="0CF3E018-7D36-97B0-7B16-340A6A2CD4EE"/>
+</associations>
+</Column>
+<Column name="Num_Visitantes" id="4EDE1EC9-561A-BD52-C9FF-DA5011BB7CDA">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>02291200-46AE-DE9B-64E6-60630F09AB87</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>76AB1894-83EF-2364-37D1-6DB847C23D9C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Num_Ticket" id="2A02D5B3-DAC9-309B-1962-47DC3AEA9D3E">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>6EB04353-B0C5-DFE2-7BDA-E4DE3D34B616</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>7BDBC529-FE2A-7E0E-5B80-44E589917E8A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ingresos_Ticket" id="F31D2906-950E-3EEE-391F-6154CB3CB8EF">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>B9C3ADD9-FB64-DFC5-0876-400023D34BCF</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>E34E1BAC-1852-E7EE-EB8B-CBE8CFBDF0A9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOAD_DATE" id="317DDF12-FAE4-9F97-025F-3C956B398D8D">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>E5F83E62-5241-4BD3-17B3-AF88116EEDF2</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>5C3ADEA0-F5B2-70FF-3CB6-2C4759B5A389</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Num_Visitantes_Presupuesto" id="CAAC8355-3BE5-5C53-3134-9FAE7837BBBF">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>236A45BA-CEBF-0772-64E7-BD6F6DD589DA</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>51F32910-6F91-8627-3A35-9F7BF045C115</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Num_Ticket_Presupuesto" id="5A0DE6BF-7B91-3B24-C28C-C1296962406A">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>C1B3BDA3-59FA-93DC-0990-E762943E0642</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>CDC7E11F-EC5B-67EE-3F73-CC9D4504F6F5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ingresos_Ticket_Presupuesto" id="AF08804E-6573-DA4E-5AE9-BA257593F85A">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>670BF547-8AB0-FC81-F991-472F4C997B96</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>9B7B12B4-3977-40E3-9180-A6B1C558D83C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CCE7419E-689A-7835-ABA7-CCE6FD63B366" name="FAC_VISITANTES_DIM_DIVISA_FK">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>2A0FD44B-1D9C-D347-45A1-D53465BAA7BC</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDBC1ACF-6170-E017-2FB0-DC0DDB973B93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E267DC07-3553-1048-ECB9-E298B503A08A" name="FAC_VISITANTES_DIM_SUBPARK_FK">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>80D445B5-BD5E-8020-9E7C-D079CD9CA8FE</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="311DF316-4B1C-3F02-7ECA-A9C635072DC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B84FBC6-8C35-9797-EA41-BE7CE6E6A683" name="FAC_VISITANTES_DIM_TIPO_TICKET_FK">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>992A42D4-FFD4-DF13-C018-95D8C741F3D8</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1E51E46-ABA9-15AF-F035-B5483FF5BFAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5722EDBA-462E-D726-7429-B16FDE9FD4EF" name="FAC_VISITANTES_DIM_CALENDARIO_FK">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>61A1123A-7538-E2C8-A105-FF3A9ACC9DB9</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="173F358D-A062-D021-78BD-C1E4379B044A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A0CC559-8D7D-BDB6-8158-88EB34C21422" name="FAC_VISITANTES_DIM_SUBCANAL_FK">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>CF2F20E3-FED0-B566-4DF5-CBA885FEAFD3</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BDF2FAB-1825-9459-CA26-60A7C6D89A6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BBEAF85A-A48E-2F62-3207-C69450A3FA5B" name="DIM_STAGE">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>D3A227B5-E480-9D14-2393-B7B92E26DD58</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>C8FE5A1C-27C3-24D0-3D9F-4291751565C2</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_STAGE" id="56E63806-7141-E670-5763-8E454BE18308">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>19D73653-0F54-C746-696C-D26A31E0A5AA</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>CBD41147-43DA-8504-ED6B-42F8B4B0DF8C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_STAGE" id="8F67CF97-9686-5A6A-FEC8-04133DA2B4FD">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>AC3CA0D9-348D-46A7-8F82-25777B4F0702</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>E9F4738E-462C-9EE6-AD86-4A4B5FDC9A16</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DES_STAGE" id="8119FD68-55D8-FF79-196D-CCCF42375DCA">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>FAE580E1-9E27-B269-E570-51F1D5801C77</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>7B4728DB-075B-9315-6E65-6FFE4EDCD547</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOAD_DATE" id="D9BF04C0-9642-450B-6628-89A3DF969AC4">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>FE626CD6-AE3C-A95E-55F0-EE0ABABA0A7C</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>3DE5A003-19E4-83A9-CF56-F95A8EDB5910</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_DATE" id="40437CD8-3EA1-991D-2487-EE71CB132ACC">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>92320107-CA38-1EC8-EADB-6E2714BA72C3</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>3FB7F21C-44AB-44A8-B398-123FF607B02B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B8950DAD-5B4A-A929-DF22-3FFE6845E9A0" name="DIM_STAGE_PK">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>8A0E0F25-0CE9-6878-16CC-E8B0F87B617E</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>13108E57-1570-F834-85D8-B321730B0DB4</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56E63806-7141-E670-5763-8E454BE18308"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

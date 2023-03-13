@@ -1,0 +1,1194 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CD9817D3-D6BB-1AE8-5FC9-6047604FA9AD" name="DIM CALENDARIO">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<comment><![CDATA[Dimensión Calendario. Información temporal del dato]]></comment>
+<commentInRDBMS><![CDATA[Dimensión Calendario. Información temporal del dato]]></commentInRDBMS>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>3C91F216-5817-5AA5-AF47-CFAE43F105F1</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID TIME" id="1AC848FD-DB26-03A7-F903-7183CAFED306">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>FD94F8E8-4402-B237-036A-A7F57380628F</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATE" id="D8CE11C1-4210-5102-DFD8-6CC9435F5273">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>2BBC36BC-6B7D-06B9-A3B5-BF247EE6D647</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>23</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,23,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="YEAR" id="E0ED396F-61A7-46D1-371F-E2E602699601">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>7F549006-42AF-1B97-5FC5-DCE1F9791729</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,10,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MONTH NAME" id="FDF37444-AD87-27EE-446D-0260EA14C75F">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>78BAE958-0139-A345-E2FC-4073BCE2B097</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MONTH NUMBER" id="93CB9D99-03E7-EEEE-3AB5-51155E97E909">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>7E70E62E-5DCB-31CB-6AC9-2955DCD62B78</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DAY WEEK" id="6B5B3EF4-C292-8325-F052-5D314022F180">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>FCAE2CAA-7A68-FB0D-35E7-A4F1FEBC6F7E</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATE SAME DAY LY" id="B0578E70-CD53-5D8F-3574-57D320CC8A24">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>8C489BC3-C7DB-B3E6-65AB-7E5F0551F647</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DAY WEEK LY" id="606635C9-0905-161B-3BB6-9437CC0945E9">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>EC1140AD-FA09-2840-86EA-162FC251BB60</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATE SAME DAY LLY" id="D8BB57C9-5D4A-00A9-C6F9-6D58066FBE17">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>90CF4B82-A3EA-8FF1-EA59-785A01787D4E</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DAY WEEK LLY" id="A80DF4D7-9ACB-63E4-02D1-87FBDFEAD08B">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>5E4ACE68-0D8D-1187-5237-E67997B329F3</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="YEAR WEEK" id="71F4FC38-0924-8A75-7AA9-5942FEA1DFD1">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>53BAEE34-0C61-5FCA-FC93-A7EA28E83A0A</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="YEAR MONTH" id="4D2BFB84-9B4A-D650-3481-285CF8C48A27">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>829BC5CC-17B0-0E72-041C-47CFCBAF4BAA</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WEEK NUMBER" id="75D4DB3D-4A87-DCDB-4E9E-5EF9CBC4E311">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>56C3B243-2D4A-90DE-2111-27977849086F</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WEEK EASTER" id="76FD1FD9-3BF8-05A8-F591-42819D559D55">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>64B0F7F4-100A-B60C-AEA7-EDD7E886ED92</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WEEK YEAR HIERARCHY" id="BA14018B-02F6-B88D-4990-3B32129909D6">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>F2BBB0DB-F960-B4EB-70EE-EE766AE071EA</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<ownDataTypeParameters>,53,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WEEK FORMAT00" id="79031CB1-80ED-5003-9BE8-DB4494C6D99C">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>516D0A25-B01F-E459-0EB3-3D57B9C1DB5D</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FISCAL WEEK YEAR" id="254F39DF-B027-63B9-42B1-524EA10198ED">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>34AC3EE0-B652-76E7-83BF-F446755FDCD6</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FISCAL MONTH" id="857C6E71-19A7-D0E5-A758-A3EDF7706D7F">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>427A66D2-54D8-CC43-4A77-957455F8A64F</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FISCAL YEAR" id="A0892440-A803-795C-BAB5-5D992D194026">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>64966CCA-4340-FED9-BED8-14C423D5BFC3</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FISCAL WEEK" id="F560773C-33B2-E693-37C5-0395015D3A98">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>952D13DF-40C7-D943-6F6D-D6616AEDE755</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FISCAL MONTH YEAR" id="2242A0AD-C09F-C8D9-A778-A68CF69F27F7">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>AA1709B0-57A0-C5A5-7E3A-13B18E65C606</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QUARTER" id="AEC805B6-2C6C-631A-BC18-B808ABAB8A11">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>4C93DF81-7AD7-4398-3AF2-45A9B9452D36</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<ownDataTypeParameters>,53,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QUARTER NAME" id="5C1EA405-AD60-2358-7555-72C0FD2E13A1">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>1C0A9C5E-5985-8CD2-9BBC-199051DAFB18</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QUARTER YEAR" id="B17FC4EE-799D-D4FD-1383-428AD086804D">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>2F6B3FDE-8477-6C71-922A-7297EF864ED8</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FISCAL QUARTER" id="685B6FC7-BE6D-22A4-84CD-27009E358D14">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>F0A3C933-9261-27BE-6A32-E8768E5BBF5D</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FISCAL QUARTER YEAR" id="2209A9E4-1EC4-2D9C-578C-1873761547DB">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>A3A4C2C2-C4BE-C4C5-381D-3FFD3A4E3947</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SEMESTER" id="BE1E6595-18F2-05C8-CBC9-9C98B895164A">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>AB94E875-ED13-3B99-2F9A-F890A6FB996E</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<ownDataTypeParameters>,53,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SEMESTER NAME" id="1C983B49-DEF6-605F-678C-71CAF10F6CFA">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>D21F14B8-B50F-36C1-B4E4-9B554C3ECBB7</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SEMESTER YEAR" id="2C663313-0BD0-3954-A568-C267A70CEF9D">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>5C23D6C9-19F3-BB96-4EAB-3DE6B39440C5</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FISCAL SEMESTER" id="C2490D57-4C02-FFBE-682D-40645802F878">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>D158D513-74AD-2173-F6AF-413BF9396B04</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FISCAL SEMESTER YEAR" id="1117003C-F5FC-F2EC-D760-BD44ECD4206E">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>57330A29-A514-0C6C-D4D3-B609B03B5888</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="YEAR DATE NEXT" id="B05F68B9-E5DD-6368-46AB-0E52A315F3CE">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>ECB543A3-82F9-0C27-292D-E5E52557316D</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WEEK DATE NEXT" id="6982FAC5-849A-BEDC-BADA-3E2F848CB192">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>8CEF417A-1165-4529-1059-AD01AC216680</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DAY DATE NEXT" id="0B46AA2D-6423-7E09-0928-E7021C8D56FA">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>53224667-94C8-8196-9B0A-E3655420CA1A</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DAY LAST YEAR" id="172F0CA4-BF39-02F3-6B72-0D8E82D08F82">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>65F118A4-462A-8A6E-5F3C-BA2C69173563</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DAY 2LAST YEAR" id="8FDA5997-996E-252B-721F-C1A60CA007BE">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>9ABC937F-35BB-C82E-163D-CC37833ADC17</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="YEAR DATE NEXT USA" id="96D68BFB-80E5-C51F-EB05-D420047D2B92">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>D1F6887C-C482-8774-A24A-B5BBCDAA72D1</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WEEK DATE NEXT USA" id="F00FDF2F-D050-EC6E-9589-EA4169393B70">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>D49A6FAB-361D-DB06-8263-F1C1A2776E57</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DAY DATE NEXT USA" id="94D2977F-1428-E800-0653-BF0659B89832">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>6B33A478-580D-C6E9-D02E-218D52085A5E</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATE USA" id="A449AE95-AF36-9872-0033-3495873C7E57">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>0E7B2B78-D90D-4885-59EB-547D915FDFFE</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="YEAR USA" id="939A9EDF-F8BA-FB14-7589-AC36FF48B4E9">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>0A90BB9E-A12C-1159-08AE-A50AB8199D44</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<ownDataTypeParameters>,53,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MONTH NAME USA" id="D52B81FB-1543-FB59-08D3-926170519D32">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>6B83DBC9-638C-EE6C-1A50-1C9BFC0010B0</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MONTH USA" id="4590A8CC-78F9-BCEB-E29C-706A18A347B0">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>7E08E759-93FB-0053-2924-8DE7C0F8DBC8</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID WEEK USA" id="0FB3BFC6-D7D7-A7EE-821E-F4337EC46929">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>8F841F69-ABD3-F268-7615-095580AC2446</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WEEK USA" id="65267B04-185A-356E-8601-DA6785C27686">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>88B72EB9-CEEC-AA34-8FEE-ED7A8EFC1D61</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<ownDataTypeParameters>,53,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WEEK EASTER USA" id="4C247AA7-00F4-5F0D-9CDC-235D3F3EA995">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>8AA14BD2-A816-A3B3-8DB5-CE8FB5A93082</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MONTH YEAR USA" id="39997819-DDD1-DFFF-B834-57A22F934845">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>B6626EF4-BA5D-D2D1-6AEE-B1F8E9E53B0A</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WEEK YEAR HIERARCHY1" id="B6275B60-83F2-16F0-41FB-535AE1819577">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>2C87AB9D-A41E-32F0-1EB8-0BC1EDD6FC14</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WEEK YEAR USA" id="CAFDFF8C-4ACE-09E9-0625-85266F1CC8FA">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>1FE5A3F1-1D2C-8C5D-A563-8A1A6219E671</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FISCAL WEEK YEAR USA" id="065A391C-17FD-29BB-C6D9-01A6E9DBC79C">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>5AA5E8D5-3673-92B9-9D01-815A51A3E2DE</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FISCAL MONTH USA" id="CB878642-2E72-FFC3-EB59-A58DBCFB3AA6">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>9ADEFDDE-DF60-7A0B-401F-5D27E3E1937E</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FISCAL YEAR USA" id="9A308069-4AD5-3B49-012E-2E3DE68D2211">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>63BED983-51F6-758D-E5ED-290D8CCAE5BD</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FISCAL WEEK USA" id="ED995BE6-0480-415E-9DCE-189554F60E3A">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>0335C227-123D-0871-25D2-D46C1051FBE0</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FISCAL MONTH YEAR USA" id="F18E212C-6782-62C8-C1CC-459C71E7B965">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>0DE89522-440B-9CF6-8B04-6544A0F42FAD</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QUARTER USA" id="38E4CE49-BA75-6456-98B2-AC0C22FD263B">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>C76EE467-7B76-B8EA-67BF-F89DAB6D1031</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QUARTER NAME USA" id="90D48B05-B077-2E34-48EA-2D1E0E9FAA60">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>77C46D53-B21E-109E-9236-63646016E937</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QUARTER YEAR USA" id="AC04EE50-5010-E77E-6D7E-F8A55026A302">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>4DBC7888-EC84-6267-2AC1-1AC0824BFF63</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FISCAL QUARTER USA" id="DE1F119C-3FD8-5886-ABA7-8C76A017EEA7">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>53097302-8F1E-1AEB-2077-78803F52C1C1</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FISCAL QUARTER YEAR USA" id="05431239-97C5-C79B-1CC7-295AE1091579">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>29E8BD81-7FC8-AB9F-545B-995B20B22BC4</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SEMESTER USA" id="A5AE8BBD-3D05-F9F9-1F72-9AA1D69951A8">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>4605EA9B-6C05-6745-C926-3750196AFFE8</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SEMESTER NAME USA" id="0F323D58-F161-59CC-3B4E-20AF649AEB07">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>D6C3B979-19F8-3787-654E-C11986578451</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SEMESTER YEAR USA" id="12A438DA-3577-C9BA-2389-72BE6A32BF49">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>453509FA-1398-2B00-AA1E-367B7A5B3FB5</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FISCAL SEMESTER USA" id="09109B6E-D796-94AF-6C3D-4360477BC08A">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>C200D1D8-DB0D-D5C5-DA0D-FF9FF4EB66A5</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FISCAL SEMESTER YEAR USA" id="F22891BA-9092-876E-3813-0BDFB583C62D">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>28BE9432-8969-A24E-9A96-7815E767E774</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DAY LAST YEAR1" id="3B4C0B28-0B74-1E63-F2A1-095400681BDD">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>B30A193D-6F13-E015-0939-9F21808CAD18</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DAY 2LAST YEAR1" id="0C8DB7D0-7DA8-241E-0095-D54AD9544C6A">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>19F934CE-8299-6F78-BA51-3F4AA6E26694</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WEEK REVENUE" id="BF44E673-5D42-20BD-5304-015D4B921F17">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>CE1A5DB2-EE38-E252-EC1E-CC7123735370</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,10,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REFRESH TIME" id="DF89EC06-C96C-3E0A-5E7D-6B4F425DA880">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>F043F15A-6462-4860-4E8B-DA6107542559</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="17235D8F-1191-5AD0-345B-54B3B8F7968A" name="DIM CALENDAR PK">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>61A1123A-7538-E2C8-A105-FF3A9ACC9DB9</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1AC848FD-DB26-03A7-F903-7183CAFED306</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

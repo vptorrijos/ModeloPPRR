@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FAC_INGRESOS_DIM_CENTRO_DE_COSTE_FK" directorySegmentName="seg_0" id="4F5B9845-5B8D-2DC8-10B0-7A78A49B4DE5">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>AE13F77F-C1D1-D0B7-B764-DEF2FDCE9AB6</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<sourcePk>E159C55F-9622-80F1-ED63-82D9C7E6A929</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C13DEFC0-8263-4854-3D8C-4EE133329944</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E40A8043-D1CD-99EF-FAC9-D3E3F6BBCF1C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

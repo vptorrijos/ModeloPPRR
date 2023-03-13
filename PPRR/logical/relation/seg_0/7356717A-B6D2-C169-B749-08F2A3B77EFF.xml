@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FAC_INGRESOS_DIM_METEOROLOGIA_FK" directorySegmentName="seg_0" id="7356717A-B6D2-C169-B749-08F2A3B77EFF">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>0B13CDF2-E4DC-446B-6846-D13BE77A6E82</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<sourcePk>44602725-A2C3-B1E2-12EB-671C58D4ADBF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E8E19CA4-1CA2-BB98-937B-9C4FDCAC72A8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E40A8043-D1CD-99EF-FAC9-D3E3F6BBCF1C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

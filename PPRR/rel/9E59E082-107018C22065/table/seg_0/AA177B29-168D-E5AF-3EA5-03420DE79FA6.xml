@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA177B29-168D-E5AF-3EA5-03420DE79FA6" name="DIM_METEOROLOGIA">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>E8E19CA4-1CA2-BB98-937B-9C4FDCAC72A8</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>90C9A9EB-7906-1EF0-8D72-1FB01E978DF7</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_METEOROLOGIA" id="A572318E-720B-A8FE-B6DA-7379BD92E6F0">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>39F106F1-A698-0CFC-925D-639FDC357F01</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>A160CE0D-2F9B-4C14-12CA-BC462702EC22</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_METEOROLOGIA" id="B2863A4E-7257-8472-A7A5-0EE1CE3E0293">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>6B9415C7-225E-B015-A350-C6336958CC8B</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>5F0982AA-CE32-C2B9-E3F2-9F19C4114312</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DES_METEOROLOGIA" id="816E3C6B-D853-0B03-649D-C90A137DF9DB">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>57FA4EDF-38C0-4594-3EB8-61DFBFAEB465</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>BC1AE29E-0535-6E52-56C6-1DE5255EF31B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOAD_DATE" id="6155FE15-F2E4-EF9C-132C-8BF39AEDC9F8">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>C87F2E1D-3394-C35F-50E4-8B03D6C5DECB</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>59D122DE-C0B5-F987-2B6A-A5F205B43285</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_DATE" id="5B361276-C375-0A21-59C5-455E51A37DB6">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>75B166DD-B8A5-BEE4-6634-4D4031666797</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>691472AF-CAA3-22DD-F7AA-EC1BF804596A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2BE7E1D2-0362-95D6-A47C-645C698A27BB" name="DIM_METEOROLOGIA_PK">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>44602725-A2C3-B1E2-12EB-671C58D4ADBF</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>EE27C652-B99E-86B5-D200-82E74D7D9CD9</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A572318E-720B-A8FE-B6DA-7379BD92E6F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2DCCB7D1-9C8B-0D6E-1066-ADA5726CB74E" name="DIM_METEOROLOGIA__IDX">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>79554AA7-23D4-35B4-4064-34D8F0ACF704</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2863A4E-7257-8472-A7A5-0EE1CE3E0293"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

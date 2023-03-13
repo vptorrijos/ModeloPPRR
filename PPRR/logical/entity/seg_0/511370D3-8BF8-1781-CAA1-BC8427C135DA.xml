@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="511370D3-8BF8-1781-CAA1-BC8427C135DA" name="DIM WEATER CONDITION">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 14:31:53 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID WEATHER CONDITION" id="A4FB3E6E-E5A1-BB97-C482-93780817C5F3">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 14:31:53 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD WEATHER CONDITION" id="DA4DC8D3-B6B8-AB0B-6DB4-5BB5CFD0F472">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-03 09:04:31 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DES WEATHER CONDITION" id="F07CE6F3-80E7-7BC6-D0D9-7E4C99CAA84A">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 14:31:53 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOAD DATE" id="7902D498-29C7-DA48-072B-9DEC12C6D12A">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 14:31:53 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UPDATE DATE" id="62A044A8-2F6D-71DD-9F6F-A2045D58369F">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 14:31:53 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8FE1A174-7279-5A4B-6F64-209A1865A073" name="DIM METEOROLOGIA PK">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 14:31:53 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A4FB3E6E-E5A1-BB97-C482-93780817C5F3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

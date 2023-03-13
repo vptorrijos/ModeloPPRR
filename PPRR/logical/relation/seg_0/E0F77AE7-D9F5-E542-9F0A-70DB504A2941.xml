@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FAC_INGRESOS_DIM_DIVISA_FK" directorySegmentName="seg_0" id="E0F77AE7-D9F5-E542-9F0A-70DB504A2941">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>FD9E5674-88E1-2C36-7371-C6032C733AC8</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<sourcePk>1C3966D2-964E-3EE3-3EE7-1893F74D2C87</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>579B9202-BE06-FAE0-18D0-F3782F27BABE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E40A8043-D1CD-99EF-FAC9-D3E3F6BBCF1C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

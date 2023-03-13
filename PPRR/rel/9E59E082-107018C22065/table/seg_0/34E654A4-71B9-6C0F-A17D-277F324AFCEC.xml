@@ -1,0 +1,172 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34E654A4-71B9-6C0F-A17D-277F324AFCEC" name="DIM_HOUR">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Dimensión con 24 registros, las 24 horas de un día]]></commentInRDBMS>
+<generatorID>6B860DDF-97E5-4C85-D7D8-B6435CDCD1B3</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>D62E78EC-597A-A4D5-C821-D8D65954C58B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_HOUR" id="C0ED3FD4-461D-AC41-0E32-A94CE2572936">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Formato HHMMSS]]></commentInRDBMS>
+<generatorID>67D7E074-DE58-D2A2-1601-F5A50C1E7BCD</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>A279D307-D109-8C93-1EEE-94C8D1F2C72D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIME" id="A4427C53-4AF4-D7A9-1C18-16F13188AAA1">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[01:00:00]]></commentInRDBMS>
+<generatorID>B594B639-DFB3-9B73-8200-C3D58EFF9040</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>997B25D4-56D5-0EEE-2381-87E5A9456AFE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOUR" id="C27929E3-7B62-A101-6792-47F75056E197">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[0 - 23]]></commentInRDBMS>
+<generatorID>CF096491-CC20-1B9B-13F9-293E0CBF6179</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>62439440-F8EC-F05E-8E5F-48F83A73F891</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MINUTE" id="A79F8322-9F45-7572-EE13-D82956D3E77D">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[0 - 59]]></commentInRDBMS>
+<generatorID>37B0EEAF-7A91-79CF-A673-1C95C5E4DD97</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>9386E79F-231F-2AB0-2497-D84F603C6967</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SECOND" id="0DFC52B5-D367-FA31-56CB-19BDF9B2972A">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[0 - 59]]></commentInRDBMS>
+<generatorID>C91E7658-F63C-639F-78A5-FB546015BBAA</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>06766249-1AE9-8BE3-1410-A005CBDC3E72</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AM" id="865BF68E-9C7F-FA10-3989-6C2760167D95">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[AM,PM]]></commentInRDBMS>
+<generatorID>4E7B990F-8FAB-C8D6-C06A-D36BD1378C27</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>98B33DA8-6942-BD62-1ECA-1137DEE30683</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOURNAME" id="5698EDBF-ECF8-04F3-D5CA-6B6C659880DB">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[00 - 23]]></commentInRDBMS>
+<generatorID>4EF6E8E0-DE73-A7BF-598E-1405A4F8C615</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>A039E322-17C9-C821-D710-3555DFDE77A2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOURNAMEAM" id="4141A59F-00E9-DAD7-D173-3A9E8AD03078">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[12 AM - 12 PM]]></commentInRDBMS>
+<generatorID>8029A2E8-4252-2255-8FF6-9F9B393B8B87</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>1A1A7559-3CEB-77D8-B40D-49286335D45A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MINUTENAME" id="181FC3E4-6F92-22D3-BB0C-5E07AA0A1B8C">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[23:59]]></commentInRDBMS>
+<generatorID>A46E4200-23D4-9ABF-2148-B85E1A831D86</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>5F5E478C-59E2-E2D9-AA3D-8C10FBC7B631</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MINUTEHOURAM" id="1B9085DC-6E7D-B170-EDA0-F4B4600239AF">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>F725370E-E457-B9CA-2C43-8EC6B9E44569</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>4EB89D12-B645-6A4A-23AF-694912A6EE85</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="50D5B0BE-8ABF-4A42-B5F2-5FD5B19B5C90" name="DIM_HOUR_PK">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>CE90E869-E3A0-774C-E741-C3A5AD5206E2</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>FCE1F108-9DF8-C984-57C1-3435C5B785C9</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0ED3FD4-461D-AC41-0E32-A94CE2572936"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

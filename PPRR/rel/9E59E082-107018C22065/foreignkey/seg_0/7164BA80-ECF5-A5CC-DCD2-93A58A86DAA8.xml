@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7164BA80-ECF5-A5CC-DCD2-93A58A86DAA8" containerWithKeyObject="3AFBA75D-95F8-65C7-552D-7B88C7155B1C" localFKIndex="3411DFF8-E7B7-C08C-37F9-2FAA2122BEEC" name="FAC_INGRESOS_DIM_METEOROLOGIA_FK">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>9F07EDFE-FBBB-6DEE-DB4B-C50FC48C238F</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>367BC945-AE19-BDE8-C200-8C50BCA28C12</importedID>
+<referredTableLongName>DIM_METEOROLOGIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AA177B29-168D-E5AF-3EA5-03420DE79FA6</referredTableID>
+<keyObject>2BE7E1D2-0362-95D6-A47C-645C698A27BB</keyObject>
+<referredKeyID>2BE7E1D2-0362-95D6-A47C-645C698A27BB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_METEOROLOGIA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

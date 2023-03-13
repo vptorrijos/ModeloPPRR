@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelationalSubView" name="CCM - SubView_Presu_Ingresos" id="A99E799B-3051-5E16-8806-E22817C1932F">
+<createdBy>jose.nacar</createdBy>
+<modifiedBy>jose.nacar</modifiedBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<generatorId>085F8EAB-36A6-4BCB-F0D0-E0CD48C11367</generatorId>
+<importedid>085F8EAB-36A6-4BCB-F0D0-E0CD48C11367</importedid>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="7D56B79A-5A2D-1CCA-A733-82876D78B918" otype="Table" vid="CE038CFE-EA61-B855-38C5-BE8C6AF89960">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1038" y="396" width="312" height="460"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="AA177B29-168D-E5AF-3EA5-03420DE79FA6" otype="Table" vid="7087AEC9-4902-7F25-BFC5-A6534610FBD0">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="375" y="106" width="272" height="120"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="BE3226D0-1056-562A-A648-5FC61ED9CFA0" otype="Table" vid="294569D9-C1DD-69C8-A1AF-5D2C646DBFF5">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="14" y="30" width="318" height="936"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="D7A8DBC8-EFEE-70B1-DDCF-57349B2281CA" otype="Table" vid="011E4806-2C61-FC7F-A4FF-D8B7FBE838C3">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="866" y="79" width="296" height="218"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="FD05129C-EB2C-95B9-3E96-7684BAC84153" otype="Table" vid="81E5F9DB-5C6D-D133-A86E-91A6738EA2EF">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="460" y="669" width="241" height="144"/>
+</OView>
+</objectViews>
+</Diagram>

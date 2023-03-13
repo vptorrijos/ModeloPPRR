@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F3BB8E7A-43DD-9583-E6C1-AEE0C5529809" containerWithKeyObject="A38EFB8B-2671-8FAE-633E-29195795DCA2" localFKIndex="40DFD7E4-335A-3F93-29B9-2F82CD98073D" name="FACT_GA_ECOMMERCE_DIM_CALENDARIO_FK">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>43098D0C-0588-E21A-CD13-37938AB01045</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>55841D68-DC5E-439E-753A-7579F6436D84</importedID>
+<referredTableLongName>DIM_CALENDARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BE3226D0-1056-562A-A648-5FC61ED9CFA0</referredTableID>
+<keyObject>1F084D74-F112-0436-8332-16BC92D1271E</keyObject>
+<referredKeyID>1F084D74-F112-0436-8332-16BC92D1271E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_TIME</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="039D8062-DB38-E4CB-E9A8-D2FA8C025A2B" containerWithKeyObject="DF593ACF-5B8E-A2CB-0C65-1DD88E5FB02F" localFKIndex="5B84FBC6-8C35-9797-EA41-BE7CE6E6A683" name="FAC_VISITANTES_DIM_TIPO_TICKET_FK">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>992A42D4-FFD4-DF13-C018-95D8C741F3D8</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>7AE6BC31-FB15-C4CE-4DCB-B89F75C9707D</importedID>
+<referredTableLongName>DIM_TIPO_TICKET</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FBDFA7D9-93C5-9709-D79C-12186A663D92</referredTableID>
+<keyObject>DC3684B2-E3BF-7198-1288-8BDED4DAC7C7</keyObject>
+<referredKeyID>DC3684B2-E3BF-7198-1288-8BDED4DAC7C7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_TIPO_TICKET</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

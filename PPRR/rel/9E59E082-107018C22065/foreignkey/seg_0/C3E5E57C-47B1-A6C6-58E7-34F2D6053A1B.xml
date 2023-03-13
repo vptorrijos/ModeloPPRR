@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C3E5E57C-47B1-A6C6-58E7-34F2D6053A1B" containerWithKeyObject="A241D773-5857-6E37-F370-3E433D815ABA" localFKIndex="FAE77071-47BB-EB61-1F10-21940D266419" name="FAC_PAIDMEDIA_DIM_STAGE_FK">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>E865F8E8-C25A-5EE2-5717-42F0414EFD3D</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>A1709CAA-95BE-1232-CE00-20383004C79A</importedID>
+<referredTableLongName>DIM_STAGE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BBEAF85A-A48E-2F62-3207-C69450A3FA5B</referredTableID>
+<keyObject>B8950DAD-5B4A-A929-DF22-3FFE6845E9A0</keyObject>
+<referredKeyID>B8950DAD-5B4A-A929-DF22-3FFE6845E9A0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_STAGE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

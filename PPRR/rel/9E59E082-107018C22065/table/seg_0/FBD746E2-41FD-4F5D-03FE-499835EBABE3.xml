@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FBD746E2-41FD-4F5D-03FE-499835EBABE3" name="REL_PARQUES_PIDMEDIA_FUNNEL_USAPARKS">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>86D22F0F-E0B5-7C62-F4F2-1D58A66B7685</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>C215218C-87DF-520A-97F1-E6139949412B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_PARK_COORPORATIVO" id="08F67D54-3910-EC20-CAAE-CB6F544722EF">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>B20CD6DC-1875-C96C-BB31-C8C0A8A3F087</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>43A2582A-1778-7CAA-4728-C6A38541568F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_PARK_FUNNEL_DATA_USAPARKS" id="FFA791A7-00D3-6B83-9CA1-F75C91AA3233">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>A5079496-94FF-8EFE-93AA-17338DF20920</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>3AC579C0-33E9-6D01-3C4C-EE76D0B095F8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_PARK_PAIDMEDIA" id="3F73DFE4-6687-2009-B908-A2F24FA1B9AB">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>9EA80A28-EC5A-B81C-B05C-065F5566FDBD</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>67988379-2114-BAB6-DE85-57E88ADA15D8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

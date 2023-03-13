@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FAC_WEATHER_DIM_HOUR_FK" directorySegmentName="seg_0" id="2F2812C5-79A0-77F2-ADD6-B469471442E4">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-08 11:26:23 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<sourcePk>CE90E869-E3A0-774C-E741-C3A5AD5206E2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6B860DDF-97E5-4C85-D7D8-B6435CDCD1B3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8E74A12F-C3DE-45A0-1734-188E7771BB22</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
