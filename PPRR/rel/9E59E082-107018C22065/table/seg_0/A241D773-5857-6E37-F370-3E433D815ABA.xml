@@ -21,9 +21,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="CF0E4DC5-CF94-D273-DF3A-894DA946A6DD" referredColumn="09953DA7-D80B-D37F-C140-D2176A2F23ED"/>
-</associations>
 </Column>
 <Column name="ID_SUBPARK" id="69662A05-2110-0557-C140-2FAFFA1A859A">
 <createdBy>jose.nacar</createdBy>
@@ -36,9 +33,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="C7238333-2C6E-8F34-7ED1-176D75CCD321" referredColumn="F2276D22-5F8D-92C8-5071-73BC12E99093"/>
-</associations>
 </Column>
 <Column name="Impressions" id="EA51FBD4-E30F-82F2-5D02-19F3CBBFB009">
 <createdBy>jose.nacar</createdBy>
@@ -376,9 +370,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="E17E1DE7-D660-9856-61F5-354BDFB59B9C" referredColumn="0CF3E018-7D36-97B0-7B16-340A6A2CD4EE"/>
-</associations>
 </Column>
 <Column name="ID_STAGE" id="EE0C1C49-2389-9EFC-E250-9E2A59075837">
 <createdBy>jose.nacar</createdBy>
@@ -391,9 +382,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="C3E5E57C-47B1-A6C6-58E7-34F2D6053A1B" referredColumn="56E63806-7141-E670-5763-8E454BE18308"/>
-</associations>
 </Column>
 <Column name="ID_PAIDMEDIA_CHANNEL" id="3F64DB40-7306-2F03-15BC-B77F4B8A0745">
 <createdBy>jose.nacar</createdBy>
@@ -406,9 +394,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="A56ADE86-4349-FB3D-B677-FEAD05A6C7AA" referredColumn="EAA738BA-9A0A-E903-659C-AF87FEE7B1C9"/>
-</associations>
 </Column>
 <Column name="LOAD_DATE" id="5523C9C0-7258-7EE8-BA0D-092CCAD3C496">
 <createdBy>jose.nacar</createdBy>

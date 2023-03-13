@@ -21,9 +21,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="2DA5E8D5-D8CF-3A6C-B0F7-B3FA2BF362E1" referredColumn="09953DA7-D80B-D37F-C140-D2176A2F23ED"/>
-</associations>
 </Column>
 <Column name="ID_SUBPARK" id="13C09D86-B155-CA8E-9040-B5677E45F169">
 <createdBy>jose.nacar</createdBy>
@@ -36,9 +33,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="120E9B5C-20BC-1A51-0B5F-73465F6DC135" referredColumn="F2276D22-5F8D-92C8-5071-73BC12E99093"/>
-</associations>
 </Column>
 <Column name="ID_FEEDBACK" id="1DB30A8A-48B3-B626-D7A4-3BF9EBCFEB79">
 <createdBy>jose.nacar</createdBy>

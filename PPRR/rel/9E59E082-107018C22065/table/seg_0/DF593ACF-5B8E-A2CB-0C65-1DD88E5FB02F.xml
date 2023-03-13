@@ -21,9 +21,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="24DE25A3-0317-3853-B81B-984F600997EF" referredColumn="09953DA7-D80B-D37F-C140-D2176A2F23ED"/>
-</associations>
 </Column>
 <Column name="ID_SUBPARK" id="311DF316-4B1C-3F02-7ECA-A9C635072DC7">
 <createdBy>jose.nacar</createdBy>
@@ -36,9 +33,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="BEB9183C-036F-AB55-B589-034DDCC70917" referredColumn="F2276D22-5F8D-92C8-5071-73BC12E99093"/>
-</associations>
 </Column>
 <Column name="ID_SUBCANAL" id="4BDF2FAB-1825-9459-CA26-60A7C6D89A6A">
 <createdBy>jose.nacar</createdBy>
@@ -51,9 +45,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="F651AE2B-7156-D93D-857A-79B05E8EB2B4" referredColumn="6566EAF6-3EBE-2EEC-16A6-5FFFA076E78B"/>
-</associations>
 </Column>
 <Column name="ID_TIPO_TICKET" id="A1E51E46-ABA9-15AF-F035-B5483FF5BFAC">
 <createdBy>jose.nacar</createdBy>
@@ -66,9 +57,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="039D8062-DB38-E4CB-E9A8-D2FA8C025A2B" referredColumn="F782C8CB-5A04-9AFA-6C91-E172A1A80DE2"/>
-</associations>
 </Column>
 <Column name="ID_DIVISA" id="FDBC1ACF-6170-E017-2FB0-DC0DDB973B93">
 <createdBy>jose.nacar</createdBy>
@@ -81,9 +69,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="86323EB6-ABC7-4911-0910-F457D854CF07" referredColumn="0CF3E018-7D36-97B0-7B16-340A6A2CD4EE"/>
-</associations>
 </Column>
 <Column name="Num_Visitantes" id="4EDE1EC9-561A-BD52-C9FF-DA5011BB7CDA">
 <createdBy>jose.nacar</createdBy>

@@ -21,9 +21,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="2E3036E9-3505-2070-8620-74F2367CEFC0" referredColumn="09953DA7-D80B-D37F-C140-D2176A2F23ED"/>
-</associations>
 </Column>
 <Column name="ID_SUBPARK" id="4B53EEBF-DBCE-C6EA-5ACB-1997D3CA72C8">
 <createdBy>jose.nacar</createdBy>
@@ -36,9 +33,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="F65D7EAB-D92B-4FC0-3C09-B3B0B6DF6C85" referredColumn="F2276D22-5F8D-92C8-5071-73BC12E99093"/>
-</associations>
 </Column>
 <Column name="ID_CENTRO_COSTE" id="EF07E496-B863-5E44-4AE4-857DA5554339">
 <createdBy>jose.nacar</createdBy>
@@ -51,9 +45,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="F59F2AAF-250D-49C9-9903-531CAF9981D1" referredColumn="7068CB21-7D81-40A0-EE2F-C5BD924AEF7B"/>
-</associations>
 </Column>
 <Column name="ID_METEOROLOGIA" id="F6C07AA8-0082-CBF0-C017-98372477CD0C">
 <createdBy>jose.nacar</createdBy>
@@ -66,9 +57,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="7164BA80-ECF5-A5CC-DCD2-93A58A86DAA8" referredColumn="A572318E-720B-A8FE-B6DA-7379BD92E6F0"/>
-</associations>
 </Column>
 <Column name="ID_DIVISA" id="29EDE720-0B44-EB0E-4549-1A605348AE87">
 <createdBy>jose.nacar</createdBy>
@@ -81,9 +69,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="78F956C1-5DBD-0511-B824-B04E00163375" referredColumn="0CF3E018-7D36-97B0-7B16-340A6A2CD4EE"/>
-</associations>
 </Column>
 <Column name="Ingresos" id="51EFEC77-BB04-BBF1-FA6E-0BC69BE010EC">
 <createdBy>jose.nacar</createdBy>

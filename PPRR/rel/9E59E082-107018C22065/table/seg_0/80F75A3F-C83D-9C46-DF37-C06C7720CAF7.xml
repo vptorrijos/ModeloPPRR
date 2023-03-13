@@ -21,9 +21,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="B9BA2BA2-5DDD-6917-F716-19E9E24C1756" referredColumn="09953DA7-D80B-D37F-C140-D2176A2F23ED"/>
-</associations>
 </Column>
 <Column name="ID_SUBPARK" id="B1CBFFFF-C261-6E07-5F14-ABA93DFA717D">
 <createdBy>jose.nacar</createdBy>
@@ -36,9 +33,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="849EE131-F96B-26B1-D71A-1576775CFDF9" referredColumn="F2276D22-5F8D-92C8-5071-73BC12E99093"/>
-</associations>
 </Column>
 <Column name="Cost" id="D5CA4DE9-B3B6-CD2D-7C0C-12461623B271">
 <createdBy>jose.nacar</createdBy>
@@ -129,9 +123,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="C9C468F2-B160-4E2F-0453-542110F8939D" referredColumn="0CF3E018-7D36-97B0-7B16-340A6A2CD4EE"/>
-</associations>
 </Column>
 <Column name="LOAD_DATE" id="11AD2F6D-78C7-10DC-11D9-BFE13E9880DA">
 <createdBy>jose.nacar</createdBy>

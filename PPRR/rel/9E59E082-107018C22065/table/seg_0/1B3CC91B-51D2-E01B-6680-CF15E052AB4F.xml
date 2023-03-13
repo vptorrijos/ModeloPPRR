@@ -20,9 +20,6 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>NNC_FAC_WEATHER_DIM_CALENDARIO_ID_TIME</notNullConstraintName>
-<associations>
-<colAssociation fkAssociation="53EEF07B-DA76-2D52-2256-F7922D404FE5" referredColumn="09953DA7-D80B-D37F-C140-D2176A2F23ED"/>
-</associations>
 </Column>
 <Column name="DIM_SUBPARK_ID_SUBPARK" id="EFD49501-C9AD-566D-D2B6-C3E7B2435168">
 <createdBy>jose.nacar</createdBy>
@@ -36,9 +33,6 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>NNC_FAC_WEATHER_DIM_SUBPARK_ID_SUBPARK</notNullConstraintName>
-<associations>
-<colAssociation fkAssociation="6AE5D8B0-36ED-4D01-DDD5-B81C365AA4E8" referredColumn="F2276D22-5F8D-92C8-5071-73BC12E99093"/>
-</associations>
 </Column>
 <Column name="DIM_WEATER_CONDITION_ID_WEATHER_CONDITION" id="0F0EEBB6-B9DE-A5D4-8948-04DB5A59AB5D">
 <createdBy>jose.nacar</createdBy>
@@ -52,9 +46,6 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>NNC_FAC_WEATHER_DIM_CLIMATIC_CONDITION_ID_CLIMATIC_CONDITION</notNullConstraintName>
-<associations>
-<colAssociation fkAssociation="97A0417F-EC64-1C7E-FDBE-362219FDDBCF" referredColumn="0A9DB585-33DB-D240-0025-A2BB8BDC9480"/>
-</associations>
 </Column>
 <Column name="Temperature" id="822DDC3B-5613-884E-1D59-A208C9A61E87">
 <createdBy>jose.nacar</createdBy>

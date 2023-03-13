@@ -4,10 +4,10 @@
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <commentInRDBMS><![CDATA[Dimensión con 24 registros, las 24 horas de un día]]></commentInRDBMS>
 <ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <importedID>C7721F9D-51D8-D0C1-6315-793064F6D835</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -23,10 +23,10 @@
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <commentInRDBMS><![CDATA[Formato HHMMSS]]></commentInRDBMS>
 <ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <importedID>1CDF63A0-CB09-4495-1807-A24C307A136B</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -38,10 +38,10 @@
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <commentInRDBMS><![CDATA[01:00:00]]></commentInRDBMS>
 <ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <importedID>5B519CAA-CD7D-C066-1C28-458505D736C3</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -54,10 +54,10 @@
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <commentInRDBMS><![CDATA[0 - 23]]></commentInRDBMS>
 <ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <importedID>9502D7B9-068E-3CF8-81C9-5AFEA1709A70</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -70,10 +70,10 @@
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <commentInRDBMS><![CDATA[0 - 59]]></commentInRDBMS>
 <ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <importedID>7813FF09-754F-2EB6-B6C6-7C92CF7F8D4E</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -86,10 +86,10 @@
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <commentInRDBMS><![CDATA[0 - 59]]></commentInRDBMS>
 <ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <importedID>90C88A05-F468-DA24-F681-AED3F7785BE1</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -102,10 +102,10 @@
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <commentInRDBMS><![CDATA[AM,PM]]></commentInRDBMS>
 <ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <importedID>4769CBA7-C1A1-6F40-176F-36BC51858B59</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -117,12 +117,13 @@
 <Attribute name="HOURNAME" id="4EF6E8E0-DE73-A7BF-598E-1405A4F8C615">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<comment><![CDATA[X]]></comment>
 <commentInRDBMS><![CDATA[00 - 23]]></commentInRDBMS>
 <ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <importedID>9279B47E-D391-99C9-E68F-58D05DE40A4B</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -136,10 +137,10 @@
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <commentInRDBMS><![CDATA[12 AM - 12 PM]]></commentInRDBMS>
 <ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <importedID>2124F7B6-9C3F-ED5E-E6A2-889F85F656AF</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -153,10 +154,10 @@
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <commentInRDBMS><![CDATA[23:59]]></commentInRDBMS>
 <ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <importedID>D19D291D-674B-89B2-6540-63FE7789F2E6</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -169,10 +170,10 @@
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <importedID>E910B851-C836-9D6C-A5D5-77881C527354</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -187,10 +188,10 @@
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <importedID>0134C699-BB41-E480-512A-C9615E2D08BD</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

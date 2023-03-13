@@ -20,9 +20,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="F3BB8E7A-43DD-9583-E6C1-AEE0C5529809" referredColumn="09953DA7-D80B-D37F-C140-D2176A2F23ED"/>
-</associations>
 </Column>
 <Column name="ID_SUBPARK" id="68005CBC-C31C-65E3-4D86-A472FD8D38DF">
 <createdBy>jose.nacar</createdBy>
@@ -35,9 +32,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="A5971E6D-9D95-3077-93CC-14E909292EFA" referredColumn="F2276D22-5F8D-92C8-5071-73BC12E99093"/>
-</associations>
 </Column>
 <Column name="ID_DIVISA" id="08A0C187-BA4E-D8D7-84D2-CF3DCBF99728">
 <createdBy>jose.nacar</createdBy>
@@ -50,9 +44,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="56CA6C7A-6CA4-794D-16B4-B8BA950D1422" referredColumn="0CF3E018-7D36-97B0-7B16-340A6A2CD4EE"/>
-</associations>
 </Column>
 <Column name="Transaction" id="4F87B59A-CB4D-A765-B1B1-DA9461818393">
 <createdBy>jose.nacar</createdBy>
