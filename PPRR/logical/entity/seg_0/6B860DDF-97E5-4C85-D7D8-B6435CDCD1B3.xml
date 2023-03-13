@@ -117,7 +117,7 @@
 <Attribute name="HOURNAME" id="4EF6E8E0-DE73-A7BF-598E-1405A4F8C615">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
-<comment><![CDATA[XY]]></comment>
+<comment><![CDATA[XYX]]></comment>
 <commentInRDBMS><![CDATA[00 - 23]]></commentInRDBMS>
 <ownerDesignName>PPRR</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
