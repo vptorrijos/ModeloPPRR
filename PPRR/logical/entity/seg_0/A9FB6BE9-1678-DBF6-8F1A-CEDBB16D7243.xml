@@ -7,7 +7,6 @@
 <importedID>2679A116-55FD-3A3D-7EC4-203BC03E68CD</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,12 +20,12 @@
 <Attribute name="ID TICKET TYPE" id="A31F30E5-66B5-E68F-9B6E-3D6AE49CFFC6">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Prueba de cambios]]></commentInRDBMS>
 <ownerDesignName>PPRR</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <importedID>763E4CEB-80DB-CCE6-92D9-05B2D2B003D3</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -41,7 +40,6 @@
 <importedID>7DE936B0-D5AE-9B30-C060-187EB9A33C88</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -57,7 +55,6 @@
 <importedID>45F569C7-6E0C-5DBC-AE1E-007CFF4B3E97</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -73,7 +70,6 @@
 <importedID>D8027449-F5F3-B6D5-DDE8-DCD291771FE5</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -89,7 +85,6 @@
 <importedID>7A22BCAD-C223-BDA3-9A54-9268EA04EBE0</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -107,7 +102,6 @@
 <importedID>992A42D4-FFD4-DF13-C018-95D8C741F3D8</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
