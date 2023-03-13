@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C3847CF-B263-6B4A-7C5D-095E5FBECF08" name="DIM_WEATER_CONDITION">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 14:49:09 UTC</createdTime>
+<generatorID>511370D3-8BF8-1781-CAA1-BC8427C135DA</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<ordsAlias>dim_climatic_condition</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_WEATHER_CONDITION" id="0A9DB585-33DB-D240-0025-A2BB8BDC9480">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 14:49:09 UTC</createdTime>
+<generatorID>A4FB3E6E-E5A1-BB97-C482-93780817C5F3</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_WEATHER_CONDITION" id="EA1C2036-D9E3-EA2C-110D-449841F7C670">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-03 09:09:17 UTC</createdTime>
+<generatorID>DA4DC8D3-B6B8-AB0B-6DB4-5BB5CFD0F472</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DES_WEATHER_CONDITION" id="2C5EAE2F-F366-8097-38F5-3102FFF1DA72">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 14:49:09 UTC</createdTime>
+<generatorID>F07CE6F3-80E7-7BC6-D0D9-7E4C99CAA84A</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOAD_DATE" id="A498BA30-928E-C431-449D-03E9A27F1CD0">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 14:49:09 UTC</createdTime>
+<generatorID>7902D498-29C7-DA48-072B-9DEC12C6D12A</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_DATE" id="42A5D5FD-4A46-4A0C-FB8A-6167B1C59EEC">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 14:49:09 UTC</createdTime>
+<generatorID>62A044A8-2F6D-71DD-9F6F-A2045D58369F</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E21030F6-59D6-D9EF-0ABC-9F1020D6831E" name="DIM_WEATHER_CONDITION_PK">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 14:49:09 UTC</createdTime>
+<generatorID>8FE1A174-7279-5A4B-6F64-209A1865A073</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A9DB585-33DB-D240-0025-A2BB8BDC9480"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

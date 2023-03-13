@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD05129C-EB2C-95B9-3E96-7684BAC84153" name="DIM_DIVISA">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Dimensión Currency. Aplica el tipo de cambio a la moneda del pais correspondiente. El tipo de cambio es anual]]></commentInRDBMS>
+<generatorID>579B9202-BE06-FAE0-18D0-F3782F27BABE</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>C771FC99-CF01-3464-B482-A025E24DD113</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DIVISA" id="0CF3E018-7D36-97B0-7B16-340A6A2CD4EE">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>270AE52D-658D-1A19-F8B3-19E7E952E3AB</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>F2036B93-EEE9-4281-C027-0C09EDFB63EF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_DIVISA" id="5E2215F4-DD94-571A-CA48-CC5F210DFA5F">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>ACF27603-9240-1F3A-D524-4AFABCEB6FFA</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>425C5805-B2D0-8098-DA32-9F6A64E7F18A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_PAIS" id="500DEE00-D62D-C17B-E1D9-9571CD45BF21">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>63BE1F22-4855-B8A1-69C1-2C4809F45703</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>7823CB2E-DD17-0076-AAD3-D215B8234DC2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TIME" id="D5D1EF71-746A-BEEC-58D2-02B0708F59AA">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>F0C77ACF-9047-2BAC-4F76-AC32B402A1F1</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>CD87D5D4-E82E-DECA-51EA-156E4A5D5D03</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_DE_CAMBIO" id="99C411C6-D085-A9CC-E77D-4B88B901A0F0">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>46420881-423B-D592-FEA9-266951A8B090</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>DA4A6AFD-53EB-FBA7-DD25-9143A9965393</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,18,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOAD_DATE" id="CE4CB2BB-664F-7811-DF8E-A1A9BEA71E78">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>BC7CE79B-7BE6-6F68-CCF3-2C27939FFB4E</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>36652FF3-EBE4-C01E-1517-98740279B802</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_DATE" id="E94B0F9B-B2E1-54F1-E720-5C471F4092C9">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>365B238C-149A-FC8D-8210-684C57E0476A</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>B3248473-D3A6-339B-FBEC-92D065A4C2DB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C5C1402-B5DD-12E0-CF34-D2A2DF553FBD" name="DIM_DIVISA_PK">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>1C3966D2-964E-3EE3-3EE7-1893F74D2C87</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>9B3FCB66-9754-B0DD-7D63-676024202D1B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CF3E018-7D36-97B0-7B16-340A6A2CD4EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

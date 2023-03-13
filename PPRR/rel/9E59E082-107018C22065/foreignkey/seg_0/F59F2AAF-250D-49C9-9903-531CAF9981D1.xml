@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F59F2AAF-250D-49C9-9903-531CAF9981D1" containerWithKeyObject="3AFBA75D-95F8-65C7-552D-7B88C7155B1C" localFKIndex="71C99D5D-68CC-0614-CA91-7A4EDB974EC7" name="FAC_INGRESOS_DIM_CENTRO_DE_COSTE_FK">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>E3ED431C-503B-B2F1-7AEB-45B19D47B773</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>6978F5A5-7368-FE5A-28C9-88455265D100</importedID>
+<referredTableLongName>DIM_CENTRO_DE_COSTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D7A8DBC8-EFEE-70B1-DDCF-57349B2281CA</referredTableID>
+<keyObject>ADD03258-5001-923B-BDF5-453F4A21ECCA</keyObject>
+<referredKeyID>ADD03258-5001-923B-BDF5-453F4A21ECCA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_CENTRO_COSTE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

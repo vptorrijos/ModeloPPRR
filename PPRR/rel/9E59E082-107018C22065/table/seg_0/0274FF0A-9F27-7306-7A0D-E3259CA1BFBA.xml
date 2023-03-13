@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0274FF0A-9F27-7306-7A0D-E3259CA1BFBA" name="DIM_PAIDMEDIA_CHANNEL">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>4ACD095B-DD07-1BCB-E008-E9C09251191C</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>2F65A8D1-8E96-B227-8751-68A63CFB57DE</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PAIDMEDIA_CHANNEL" id="EAA738BA-9A0A-E903-659C-AF87FEE7B1C9">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>D85CF974-886A-AF63-DBA1-40E6C82C9599</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>1481E1BF-BA4F-1CCB-6914-63230D453DC0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_PAIDMEDIA_CHANNEL" id="C5C0DE0D-C473-13C3-7AA4-E4CA7D46F5AB">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>2D52A901-1C72-FDF3-DAA5-92DB524DA3C4</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>923F5303-8774-DB62-0B0D-0AA41876BF0B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DES_PAIMEDIA_CHANNEL" id="F938CA88-47CE-B03A-C00B-DA5327037EFD">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>124DFBBE-6F4B-7CAE-916B-1452DD57CFB6</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>38EFD895-44A5-484D-78F2-9961977AB057</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOAD_DATE" id="88262117-035E-BBF3-9519-39C124C4D42D">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>C55CF6C4-9496-4ECD-253F-367A4AA820C2</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>844ADFA9-3576-480E-36DE-8DD5DD2207E7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_DATE" id="F21325A2-8B1B-1853-D8C2-674E20A834FA">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>1C9A58DE-A4B9-4212-046A-5E2BA2203381</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>493E0080-521A-749A-35CA-35472B934580</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A40BD623-3C93-214B-A334-9C0651852704" name="DIM_PAIDMEDIA_CHANNEL_PK">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>5CE97438-719A-DAEA-5216-0CEC51909A69</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>FCE1F0EE-9B2F-1A8C-D7D6-C361BBF4B268</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EAA738BA-9A0A-E903-659C-AF87FEE7B1C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="PPRR" id="3B78207A-4B17-C8B9-CB78-0B40C732F4C2" version="3.5">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:13:24 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3B78207A-4B17-C8B9-CB78-0B40C732F4C2</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="28E8A645-2C8F-BE52-AA7F-762DC75A5693">
+<designStoragePath>C:\Users\jose.nacar\Downloads\MODELS_PPRR\MODELS_PPRR</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

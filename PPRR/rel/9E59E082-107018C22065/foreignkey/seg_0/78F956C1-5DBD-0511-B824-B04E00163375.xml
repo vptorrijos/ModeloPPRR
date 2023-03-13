@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="78F956C1-5DBD-0511-B824-B04E00163375" containerWithKeyObject="3AFBA75D-95F8-65C7-552D-7B88C7155B1C" localFKIndex="13F7AF3F-51E1-7BF7-9A39-DF155B15A52D" name="FAC_INGRESOS_DIM_DIVISA_FK">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>2A0FD44B-1D9C-D347-45A1-D53465BAA7BC</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>AEA6088D-0AB2-E993-4AA4-1A0439A021BA</importedID>
+<referredTableLongName>DIM_DIVISA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FD05129C-EB2C-95B9-3E96-7684BAC84153</referredTableID>
+<keyObject>3C5C1402-B5DD-12E0-CF34-D2A2DF553FBD</keyObject>
+<referredKeyID>3C5C1402-B5DD-12E0-CF34-D2A2DF553FBD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_DIVISA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

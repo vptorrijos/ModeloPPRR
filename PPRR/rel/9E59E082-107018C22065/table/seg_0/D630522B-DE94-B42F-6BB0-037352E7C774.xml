@@ -1,0 +1,261 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D630522B-DE94-B42F-6BB0-037352E7C774" name="DIM_SUBCANAL">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>34912231-507B-4A59-9529-AD02CA54759E</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>7DA051C1-056C-A21F-AD18-9480A25E8C80</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SUBCANAL" id="6566EAF6-3EBE-2EEC-16A6-5FFFA076E78B">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>8F874CB9-705A-2EA6-D257-452B4E5A6E57</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>5F46199E-ED27-899D-1784-6C66FD8F5F2A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_SUBCANAL" id="9B4BD2B6-831E-D6F6-A0DE-9277B67F83B7">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>392F08B1-04A3-30BE-1FF7-8F422E66D77E</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>1419A99E-476B-0685-938B-B36FD90C288F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DES_SUBCANAL" id="B0B4858E-9E22-D46D-D710-DF6B7DC66238">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>357819BC-F35E-05A4-A17A-9CF9AA35EF25</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>D3216452-4278-003E-03AE-FAC56CED551A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DES_SUBCANAL_ESP" id="5D536FC0-C0EC-EB4E-BF55-9B64C90C5F66">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>8FA5185A-434A-66E1-FE40-79E3686D8B7F</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>3C987D03-9B7A-02E4-2557-D418C8837555</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_CANAL" id="F04B2A32-02D1-A930-AA51-BFA214E7ED58">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>5D5B1DAD-2516-31CD-F04D-A8C98B54981D</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>C45EC392-5F32-7A8B-A8F3-A9E6CB159555</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DES_CANAL" id="B54055A7-4860-1E41-A907-0F50D5547F95">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>3FFD1E3F-83D9-BB7C-B363-9534E2F915FA</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>901121C0-98DD-B386-6796-CB8C06304A70</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DES_CANAL_ESP" id="5C7D00A4-51C2-EF71-9990-FADCDBDFE621">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>3E37A8A5-45D9-0535-8602-389B5728DBAE</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>CF803B53-E1DE-8249-332D-F2F9058A4345</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_TIPO_CANAL" id="30688691-A472-B8BC-CA92-35D7D4C3775A">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>8A01F3AF-73BD-4A8D-DEE9-AF81B4D31E94</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>D057547B-00D2-7782-66BB-EF78D2C18B4D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DES_TIPO_CANAL" id="99D1036C-E84E-9DEA-2888-483CEEBA73A6">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>F971ADE6-72CF-063E-FE3A-45264748258E</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>06C1DE39-F9C3-59B2-B866-3D3D0CF4E917</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DES_TIPO_CANAL_ESP" id="C6A0F10D-02C4-D365-3157-8C616BFC476D">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>8AA0CCA4-78AD-141C-119E-7E71487E2D10</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>3F594F5E-09BD-BCE7-8F81-197F46FC0896</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_REPORTING" id="05AC10F6-6EEB-8371-A8DF-D3B79166ACB6">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>7386FEDB-D205-2BE6-D1C1-B86C94FCF0D3</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>89587E4A-5932-1743-8736-3FF4A7D2CFD5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DES_REPORTING" id="BA8015AA-392D-C91B-0F47-6A05DD1EE6DB">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>DE5C763E-726A-3375-BB3D-404513D801AA</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>753808B5-5CF3-C416-8327-F1A9B4D9DDF8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_PRESUPUESTO" id="13A6D46D-77F0-7B0E-7E67-A404B09818DA">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>3B884D15-93D5-DFB2-A6BA-22BE6C3C7EEE</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>86A8D4BB-2B9C-319E-7743-4193256563C5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DES_PRESUPUESTO" id="0F909E77-1000-10EE-1CAC-64A6E6131FFB">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>D3B9A95A-0ACF-04CB-F3E2-A9DF711B76EB</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>D57F1F73-AC27-AAE5-C05B-3D5AA6133329</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_ONLINE" id="627F2A74-9B87-4088-21EF-61B5FFB7C213">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>0DC08218-1B89-87E6-1F62-F2FDE272E37A</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>CF2EB8FD-8AAC-0214-12E5-4FE4AA29FAC6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DES_ONLINE" id="DE2A9476-3AF5-ABC2-20ED-DB2F119E0700">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>8D64107B-5299-F96A-F67F-A201B00B7C67</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>C82A5D51-AC40-AA94-727D-50CBC7B8CDAD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_DATE" id="4DF6ED85-3365-75B1-2097-5FADCB428B5E">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>AA840476-A0A5-9DB2-FB15-6E7466175AB2</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>B5B0D8ED-4AA9-DD9F-B240-4ED30F6C8DC6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOAD_DATE" id="3FD97A20-44CD-B843-508C-0529B11F3CD3">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>247D0325-5BF4-6DEF-4ABE-2E68D621FA0C</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>99028477-D409-6675-9DD2-10542DFD7F0A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="24FE09EC-FF15-67DB-407D-C22D1FE2E7EF" name="DIM_SUBCANAL_PK">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>53AF0A88-A685-15DA-986D-C1296120E995</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>8B4BB74F-B2C6-6696-5744-269AA33DE746</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6566EAF6-3EBE-2EEC-16A6-5FFFA076E78B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

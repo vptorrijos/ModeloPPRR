@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FAC_VISITANTES_DIM_SUBCANAL_FK" directorySegmentName="seg_0" id="DECA5FBD-34A5-9E17-41A2-41035A27116F">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>05025A0C-1933-A7B0-AC6C-11DA5D1F688F</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
+</engineerTo>
+<sourcePk>53AF0A88-A685-15DA-986D-C1296120E995</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>34912231-507B-4A59-9529-AD02CA54759E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7A3A3D1A-4274-102A-73D1-7CA93DAB34A5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

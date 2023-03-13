@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1B3CC91B-51D2-E01B-6680-CF15E052AB4F" name="FAC_WEATHER">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 14:49:09 UTC</createdTime>
+<generatorID>8E74A12F-C3DE-45A0-1734-188E7771BB22</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DIM_CALENDARIO_ID_TIME" id="6E5BB082-8F3F-AC14-B211-91BEC4FE4A77">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 14:49:09 UTC</createdTime>
+<generatorID>811A1134-7D81-750F-B76F-E40AE4991931</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_FAC_WEATHER_DIM_CALENDARIO_ID_TIME</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="53EEF07B-DA76-2D52-2256-F7922D404FE5" referredColumn="09953DA7-D80B-D37F-C140-D2176A2F23ED"/>
+</associations>
+</Column>
+<Column name="DIM_SUBPARK_ID_SUBPARK" id="EFD49501-C9AD-566D-D2B6-C3E7B2435168">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 14:49:09 UTC</createdTime>
+<generatorID>8EB2725F-E3E0-C8AD-225F-7D07AC8791F5</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_FAC_WEATHER_DIM_SUBPARK_ID_SUBPARK</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="6AE5D8B0-36ED-4D01-DDD5-B81C365AA4E8" referredColumn="F2276D22-5F8D-92C8-5071-73BC12E99093"/>
+</associations>
+</Column>
+<Column name="DIM_WEATER_CONDITION_ID_WEATHER_CONDITION" id="0F0EEBB6-B9DE-A5D4-8948-04DB5A59AB5D">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 14:49:09 UTC</createdTime>
+<generatorID>AED5611F-7248-7EDA-4F0E-A1B8D3911FA6</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_FAC_WEATHER_DIM_CLIMATIC_CONDITION_ID_CLIMATIC_CONDITION</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="97A0417F-EC64-1C7E-FDBE-362219FDDBCF" referredColumn="0A9DB585-33DB-D240-0025-A2BB8BDC9480"/>
+</associations>
+</Column>
+<Column name="Temperature" id="822DDC3B-5613-884E-1D59-A208C9A61E87">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 14:49:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esto es un cálculo médio ]]></commentInRDBMS>
+<generatorID>93DB73DE-5F4D-91DE-6205-88DFDC6A9CCF</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rainfall" id="F960A5EA-B589-D19F-DCE5-1A797C1491A5">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 14:49:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esto es un cálculo médio ]]></commentInRDBMS>
+<generatorID>1F7BBC59-28CF-5831-C539-334478B5E0F2</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rainfall_24h" id="410387CD-FF05-5FFB-21F0-785F5A727459">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 14:49:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esto es un cálculo médio ]]></commentInRDBMS>
+<generatorID>BBED388B-7EFB-4B4D-94BE-6057BC324DE2</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOAD_DATE" id="1D30486E-92E8-6CDF-020E-FA1CC869BC96">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 14:49:09 UTC</createdTime>
+<generatorID>BE8F796B-E2FF-6AF2-0CD4-36E363F11693</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6498E9C-7A0F-CEEA-EBF3-16D2BD2C15D6" name="FAC_WEATHER_DIM_CALENDARIO_FK">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 14:49:09 UTC</createdTime>
+<generatorID>F336B0F3-5C69-2D14-CEBF-FCF41F262903</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E5BB082-8F3F-AC14-B211-91BEC4FE4A77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96B26EF4-080D-D220-00AE-E503137DF761" name="FAC_WEATHER_DIM_WEATER_CONDITION_FK">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 14:49:09 UTC</createdTime>
+<generatorID>22A5FE05-0CB8-57A5-BF51-FF221E43A9BC</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F0EEBB6-B9DE-A5D4-8948-04DB5A59AB5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F70D94B2-5952-D3DC-07D2-926113FEC52B" name="FAC_WEATHER_DIM_SUBPARK_FK">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 14:49:09 UTC</createdTime>
+<generatorID>CE8F8B4C-F3DB-A0D4-A21B-34EECD5A5734</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFD49501-C9AD-566D-D2B6-C3E7B2435168"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

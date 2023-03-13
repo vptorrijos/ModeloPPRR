@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogicalSubView" name="From_RM_CCM - SubView_Presu_Ingresos" id="9495D528-2E3C-34B2-EAE2-4E6693B13D32">
+<createdBy>jose.nacar</createdBy>
+<modifiedBy>jose.nacar</modifiedBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<generatorId>65C84C73-04A7-1130-840F-FF9DAD912D6A</generatorId>
+<importedid>65C84C73-04A7-1130-840F-FF9DAD912D6A</importedid>
+<notation>0</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="579B9202-BE06-FAE0-18D0-F3782F27BABE" otype="Entity" vid="21448771-2F30-A207-881C-5E80793C7416">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="460" y="669" width="241" height="144"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="C13DEFC0-8263-4854-3D8C-4EE133329944" otype="Entity" vid="683A6D98-0E59-3D5E-0D20-3081CD516871">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="866" y="79" width="296" height="218"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="CD9817D3-D6BB-1AE8-5FC9-6047604FA9AD" otype="Entity" vid="7BD79117-23E7-1C72-EAD0-B69BC13C8C54">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="14" y="30" width="318" height="936"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="E8E19CA4-1CA2-BB98-937B-9C4FDCAC72A8" otype="Entity" vid="E7430B5B-47AA-4D08-A0E7-021233AA72CD">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="375" y="106" width="272" height="120"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="F608309C-F4D4-29E2-5AB4-9A320E9D7556" otype="Entity" vid="FEF24DAD-94E6-7BE9-A4B9-9CCDCAE034EC">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1038" y="396" width="312" height="460"/>
+</OView>
+</objectViews>
+</Diagram>

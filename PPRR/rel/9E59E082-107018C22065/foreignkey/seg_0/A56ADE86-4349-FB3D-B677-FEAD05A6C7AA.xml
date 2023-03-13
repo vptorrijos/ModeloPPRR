@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A56ADE86-4349-FB3D-B677-FEAD05A6C7AA" containerWithKeyObject="A241D773-5857-6E37-F370-3E433D815ABA" localFKIndex="A892BF18-757F-2F8C-40F7-76E04B8515BB" name="FAC_PAIDMEDIA_DIM_PAIDMEDIA_CHANNEL_FK">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>719D968F-9679-6E31-9AE4-3F9DD0B0E4ED</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>0E363119-3A87-D1E1-37B1-713254201ABC</importedID>
+<referredTableLongName>DIM_PAIDMEDIA_CHANNEL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0274FF0A-9F27-7306-7A0D-E3259CA1BFBA</referredTableID>
+<keyObject>A40BD623-3C93-214B-A334-9C0651852704</keyObject>
+<referredKeyID>A40BD623-3C93-214B-A334-9C0651852704</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PAIDMEDIA_CHANNEL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

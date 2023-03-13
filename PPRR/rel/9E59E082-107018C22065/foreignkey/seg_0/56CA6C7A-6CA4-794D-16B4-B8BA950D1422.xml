@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="56CA6C7A-6CA4-794D-16B4-B8BA950D1422" containerWithKeyObject="A38EFB8B-2671-8FAE-633E-29195795DCA2" localFKIndex="07B4D25B-2FC2-3BF1-FAA5-CB08B397D2A5" name="FACT_GA_ECOMMERCE_DIM_DIVISA_FK">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>0B8DC5FC-C273-3DCB-7DF7-8CBAF9BD676F</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>F53EE126-BFF9-9FBE-4BAE-1F3E9D81A427</importedID>
+<referredTableLongName>DIM_DIVISA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FD05129C-EB2C-95B9-3E96-7684BAC84153</referredTableID>
+<keyObject>3C5C1402-B5DD-12E0-CF34-D2A2DF553FBD</keyObject>
+<referredKeyID>3C5C1402-B5DD-12E0-CF34-D2A2DF553FBD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_DIVISA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

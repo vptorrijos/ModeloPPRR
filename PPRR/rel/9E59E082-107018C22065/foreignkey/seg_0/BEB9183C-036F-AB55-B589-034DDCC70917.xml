@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BEB9183C-036F-AB55-B589-034DDCC70917" containerWithKeyObject="DF593ACF-5B8E-A2CB-0C65-1DD88E5FB02F" localFKIndex="E267DC07-3553-1048-ECB9-E298B503A08A" name="FAC_VISITANTES_DIM_SUBPARK_FK">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>80D445B5-BD5E-8020-9E7C-D079CD9CA8FE</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>2A8BD0B7-293A-110A-5252-C824C43DB09E</importedID>
+<referredTableLongName>DIM_SUBPARK</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7D56B79A-5A2D-1CCA-A733-82876D78B918</referredTableID>
+<keyObject>B8887E97-3189-AA7E-DC98-DEB28D455654</keyObject>
+<referredKeyID>B8887E97-3189-AA7E-DC98-DEB28D455654</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_SUBPARK</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="355445B2-CA38-8AC2-4DA4-2C5C583898EF" name="REL_PARQUES_GA_ECOMMERCE">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>07F6BE00-CA06-5CE2-2E55-1D5F2C68CFD3</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>67D6481B-F203-6E09-240F-469EF4CFA5FF</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_PARK_COORPORATIVO" id="3AB059B2-BF34-7BB4-5225-4723D4B6BCF0">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>844ABD2A-2F38-97E0-1C87-0B84A965FE95</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>0857E55D-895F-9765-1DDA-65C34AF0E759</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_PARK_GA_ECOMMERCE" id="8C63200B-0DCC-BD73-04B1-3A0B1754547E">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-02 10:18:03 UTC</createdTime>
+<generatorID>DED37C29-FEF3-AF85-1AC4-BFD96DE7CF30</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<importedID>07A1EBA7-F23C-1D51-9C8A-02E9F6D60485</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>
