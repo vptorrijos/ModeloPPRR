@@ -1,11 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="511370D3-8BF8-1781-CAA1-BC8427C135DA" name="DIM WEATER CONDITION">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="511370D3-8BF8-1781-CAA1-BC8427C135DA" name="DIM WEATHER CONDITION">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 14:31:53 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -22,7 +21,6 @@
 <ownerDesignName>PPRR</ownerDesignName>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -35,7 +33,6 @@
 <ownerDesignName>PPRR</ownerDesignName>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -49,7 +46,6 @@
 <ownerDesignName>PPRR</ownerDesignName>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -63,7 +59,6 @@
 <ownerDesignName>PPRR</ownerDesignName>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -77,7 +72,6 @@
 <ownerDesignName>PPRR</ownerDesignName>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -94,7 +88,6 @@
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

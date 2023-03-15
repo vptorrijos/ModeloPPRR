@@ -8,7 +8,6 @@
 <importedID>184115B5-720F-BF2A-F8DC-EA3090AD4B50</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -19,7 +18,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID SUBPARK" id="1172BC3A-D106-D961-CF3D-3EBE1E1F4AA7">
+<Attribute name="iIdSubPark" id="1172BC3A-D106-D961-CF3D-3EBE1E1F4AA7">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -27,14 +26,13 @@
 <importedID>C3FF83B0-A596-61B3-4FBE-95A105D1972C</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD SUBPARK" id="1662086F-4E38-8F4E-023C-D1DAE7035D25">
+<Attribute name="sCodSubPark" id="1662086F-4E38-8F4E-023C-D1DAE7035D25">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -42,7 +40,6 @@
 <importedID>4DFECF5F-2198-F5DA-C7A6-03E330D1C19F</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -50,7 +47,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD SUBPARK WORKDAY" id="4EE60D2B-F7E3-A0C8-9134-DB87B242B187">
+<Attribute name="sCodSubParkWorkDay" id="4EE60D2B-F7E3-A0C8-9134-DB87B242B187">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -58,7 +55,6 @@
 <importedID>30501665-2661-3F5F-922F-60EFAEE470B5</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -66,7 +62,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DES SUBPARK" id="A2AEB416-4613-716B-A125-616243B62805">
+<Attribute name="sDesSubPark" id="A2AEB416-4613-716B-A125-616243B62805">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -74,7 +70,6 @@
 <importedID>155E3A02-AA50-912E-1C6E-76A723083B06</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -82,7 +77,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DES SUBPARK ESP" id="FF234CE3-4222-34C6-F445-3A62D70EC483">
+<Attribute name="sDesSubParkEsp" id="FF234CE3-4222-34C6-F445-3A62D70EC483">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -90,7 +85,6 @@
 <importedID>C7AE05C0-2CF3-8201-A364-2E2E352467F2</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -98,7 +92,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DES SUBPARK WORKDAY" id="80423F16-C0B3-FA42-84A9-730D04BACF2D">
+<Attribute name="sDesSubParkWorkDay" id="80423F16-C0B3-FA42-84A9-730D04BACF2D">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -106,7 +100,6 @@
 <importedID>9FE8C846-B3E2-9B3A-E040-7E4C0311EA01</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -114,7 +107,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD PARK" id="378CF8D2-AA36-A081-8B2C-824B7E3BE1A1">
+<Attribute name="sCodPark" id="378CF8D2-AA36-A081-8B2C-824B7E3BE1A1">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -122,7 +115,6 @@
 <importedID>7A5E3F96-756E-C2BB-E27B-65F19047ACDA</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -130,7 +122,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DES PARK" id="60D39447-7564-AAD6-6E56-4E6D62588A89">
+<Attribute name="sDesPark" id="60D39447-7564-AAD6-6E56-4E6D62588A89">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -138,7 +130,6 @@
 <importedID>34768D8E-D248-90E9-395F-1C72D7C400AA</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -146,7 +137,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD TYPE PARK" id="64D7DCCA-C857-D0CF-CDEB-245D7000FA40">
+<Attribute name="sCodTypePark" id="64D7DCCA-C857-D0CF-CDEB-245D7000FA40">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -154,7 +145,6 @@
 <importedID>1C67CF82-9B34-1421-0E29-19B9272D7061</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -162,7 +152,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DES TYPE PARK" id="2E391E89-09D2-8090-BBB1-A6852E322E1B">
+<Attribute name="sDesTypePark" id="2E391E89-09D2-8090-BBB1-A6852E322E1B">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -170,7 +160,6 @@
 <importedID>D2AA9261-8C24-1A5C-A340-389DFF1DB8D8</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -178,7 +167,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD COUNTRY" id="39B2458B-7A1D-C551-A47D-B7E5248C864F">
+<Attribute name="sCodCountry" id="39B2458B-7A1D-C551-A47D-B7E5248C864F">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -186,7 +175,6 @@
 <importedID>2338C6CB-4065-6667-78AE-99C5BF64D253</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -194,7 +182,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DES COUNTRY" id="55268D28-32F0-9E1D-5266-2300BC7C1C43">
+<Attribute name="sDesCountry" id="55268D28-32F0-9E1D-5266-2300BC7C1C43">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -202,7 +190,6 @@
 <importedID>7705595A-F243-4C43-8E91-AA5D245C51A8</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -210,7 +197,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD HUB" id="9BB26B7E-1DFA-266D-3C83-572675FFB7A2">
+<Attribute name="sCodHub" id="9BB26B7E-1DFA-266D-3C83-572675FFB7A2">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -218,7 +205,6 @@
 <importedID>2C931723-AB57-2C6A-A964-58303D5BB438</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -226,7 +212,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DES HUB" id="AB09886D-A329-D202-C015-40492980DC06">
+<Attribute name="sDesHub" id="AB09886D-A329-D202-C015-40492980DC06">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -234,7 +220,6 @@
 <importedID>B0EFA82E-7A9A-F030-F2A8-753C46F67564</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -242,7 +227,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD REGION" id="91117B60-04D1-A4DB-BB28-2E321B5CECC8">
+<Attribute name="sCodRegion" id="91117B60-04D1-A4DB-BB28-2E321B5CECC8">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -250,7 +235,6 @@
 <importedID>3AFDD7E3-8C3E-5818-B170-C1C5E1CBB622</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -258,7 +242,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DES REGION" id="4CDA5340-8CDA-AAED-35CE-243591A3C6ED">
+<Attribute name="sDesRegion" id="4CDA5340-8CDA-AAED-35CE-243591A3C6ED">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -266,7 +250,6 @@
 <importedID>A61404E7-08DE-C0D5-6D49-75E253A85E19</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -274,7 +257,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PRO FORMA DATE" id="AF8AC75C-9B17-A3AC-CCAE-02C573CA5A0B">
+<Attribute name="dProForma" id="AF8AC75C-9B17-A3AC-CCAE-02C573CA5A0B">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -282,7 +265,6 @@
 <importedID>CC03B326-4EB0-DCF9-C7C1-364D7AEB6243</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -290,7 +272,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PARNETSHIP TYPE" id="93C352B7-EAFC-FCD1-6EA8-9A0C2ABD6D52">
+<Attribute name="iCodParnetshipType" id="93C352B7-EAFC-FCD1-6EA8-9A0C2ABD6D52">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -298,7 +280,6 @@
 <importedID>531AD313-12AD-9DC3-829D-F958685628D4</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -306,7 +287,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD CONSEJO" id="9B78F81F-377C-2A7A-DD8E-A20AE711EB92">
+<Attribute name="sCodConsejo" id="9B78F81F-377C-2A7A-DD8E-A20AE711EB92">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -314,7 +295,6 @@
 <importedID>3B70E8DE-0E1F-4D71-4218-FC12D59C7238</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -322,7 +302,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD CONSEJO BI" id="8026CBFC-6163-D5F5-C778-95FA556865DF">
+<Attribute name="sCodConsejoBI" id="8026CBFC-6163-D5F5-C778-95FA556865DF">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -330,7 +310,6 @@
 <importedID>2259124A-2D6E-E738-4AAA-38AA06DD84C3</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -338,7 +317,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD PQR" id="44178501-29FA-C0D4-9458-992E39F66023">
+<Attribute name="sCodPQR" id="44178501-29FA-C0D4-9458-992E39F66023">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -346,7 +325,6 @@
 <importedID>7F82575B-C978-0EB9-CDE1-D5B6C07C138D</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -354,7 +332,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD SUBPARK SF" id="FC77CE95-00D5-091D-2DD9-C937279BE11D">
+<Attribute name="sCodSubParkSF" id="FC77CE95-00D5-091D-2DD9-C937279BE11D">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -362,7 +340,6 @@
 <importedID>847FD3FB-7745-538B-6EB5-8B4F9541E3E8</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -370,7 +347,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD SUBPARK VECTOR" id="08912BC2-873B-E202-7770-13512A9E5AC7">
+<Attribute name="sCodSubParkVector" id="08912BC2-873B-E202-7770-13512A9E5AC7">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -378,7 +355,6 @@
 <importedID>F5A895D8-8FE6-F4A0-CE19-EA30DA69F3F4</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -386,7 +362,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD SUBPARK IACPOS" id="28241455-2CF7-C3CF-540D-B282A0811D7C">
+<Attribute name="sCodSubParkIACPOS" id="28241455-2CF7-C3CF-540D-B282A0811D7C">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -394,7 +370,6 @@
 <importedID>7F35B413-59E5-1F40-CCD4-409EF5BB2DB1</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -402,7 +377,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD SUBPARK AXAPTA GREG" id="33812BAA-6097-3E63-9C72-88DBE5E02B69">
+<Attribute name="sCodSubParkAxaptaGreg" id="33812BAA-6097-3E63-9C72-88DBE5E02B69">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -410,7 +385,6 @@
 <importedID>CE177AD6-2152-9B6C-AFD9-E6FABA35FF08</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -418,7 +392,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD SUBPARK GREG" id="F4B404C8-1D99-4D6B-9FA1-219B55E73388">
+<Attribute name="sCodSubParkGreg" id="F4B404C8-1D99-4D6B-9FA1-219B55E73388">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -426,7 +400,6 @@
 <importedID>21355260-3802-C288-F39C-0FB174A9E0F1</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -434,7 +407,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="B ACCOUNTING" id="E4A3E45B-F70B-317C-FD7F-6C7D9FC66811">
+<Attribute name="iIndBAccounting" id="E4A3E45B-F70B-317C-FD7F-6C7D9FC66811">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -442,7 +415,6 @@
 <importedID>D53991E4-B8A1-9176-43B0-D61FCA9B32DE</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -450,7 +422,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="B TICK CHANNEL" id="F8A7138B-5502-6313-EF6F-63F51280C4F3">
+<Attribute name="iIndTickChannel" id="F8A7138B-5502-6313-EF6F-63F51280C4F3">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -458,7 +430,6 @@
 <importedID>0F40830B-E9FA-8C37-563F-3A0AFFEB25E4</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -466,7 +437,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD NOMENCLATURE" id="C9CC2A9F-4417-A47D-33E7-40163A1A1DB8">
+<Attribute name="sCodNomenclature" id="C9CC2A9F-4417-A47D-33E7-40163A1A1DB8">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -474,7 +445,6 @@
 <importedID>20E10D5C-01A4-289A-81BF-EFE994E1B3E9</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -482,7 +452,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="B APPLY CPDV" id="D7EF2EA3-F1BD-16CE-2C52-B24D918C5CC9">
+<Attribute name="iIndBApplyCPDV" id="D7EF2EA3-F1BD-16CE-2C52-B24D918C5CC9">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -490,7 +460,6 @@
 <importedID>9141AE69-0B55-D0D5-7FA3-3D76CC5E4D07</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -498,7 +467,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD DIVISION" id="9D0E1F34-2C91-DD21-4B83-F808C09CB55F">
+<Attribute name="sCodDivision" id="9D0E1F34-2C91-DD21-4B83-F808C09CB55F">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -506,7 +475,6 @@
 <importedID>CD7783DE-3C96-58A4-916D-30331E4723C2</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -514,7 +482,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD PARTNERSHIP" id="A5661F0D-B5EF-B96B-218F-86938786CFE6">
+<Attribute name="sCodPartnership" id="A5661F0D-B5EF-B96B-218F-86938786CFE6">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -522,7 +490,6 @@
 <importedID>FC3988A8-934B-A6C4-B595-0FE15B1E8463</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -530,7 +497,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="LOAD DATE" id="FB6B664C-1DFA-1A1A-9668-3D5BCC441FA7">
+<Attribute name="dLoad" id="FB6B664C-1DFA-1A1A-9668-3D5BCC441FA7">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -538,7 +505,6 @@
 <importedID>FCB3DA24-F080-B239-436A-7B268706B9D9</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -546,7 +512,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="UPDATE DATE" id="96BD027F-22FE-D593-1F2E-F44D3D344F42">
+<Attribute name="dUpdate" id="96BD027F-22FE-D593-1F2E-F44D3D344F42">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -554,7 +520,6 @@
 <importedID>652FBE5F-23B1-25F8-B89F-C4C2C6491360</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -572,7 +537,6 @@
 <importedID>80D445B5-BD5E-8020-9E7C-D079CD9CA8FE</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

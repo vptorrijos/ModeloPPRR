@@ -8,7 +8,6 @@
 <importedID>C1571E14-6F44-9326-A0FA-48D9BF39BF77</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +19,7 @@
 <normalForm>Third</normalForm>
 <synonymToDisplay>VISITS</synonymToDisplay>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID TIME" id="C3730F3D-A668-F1C9-F41B-E3D39E4723B1">
+<Attribute name="iIdCalendar" id="C3730F3D-A668-F1C9-F41B-E3D39E4723B1">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <generatorID>640E12BA-7431-637F-690A-DD4AB7ABC8D1</generatorID>
@@ -29,7 +28,6 @@
 <importedID>5A82414C-84F9-0773-FAFD-8F337AF6362B</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <referedAttribute>1AC848FD-DB26-03A7-F903-7183CAFED306</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -37,7 +35,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID SUBPARK" id="AE02A980-1E97-D689-DF93-4BC5EA9A5962">
+<Attribute name="iIdSubPark" id="AE02A980-1E97-D689-DF93-4BC5EA9A5962">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <generatorID>697B1D49-B7EC-2943-C095-844D3E5ECC6A</generatorID>
@@ -46,7 +44,6 @@
 <importedID>9BB885AB-EF44-FB01-EBC9-169CDF0971E9</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <referedAttribute>1172BC3A-D106-D961-CF3D-3EBE1E1F4AA7</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -63,7 +60,6 @@
 <importedID>FE47536B-AC2C-E98A-D514-2C235EEA7BCA</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <referedAttribute>8F874CB9-705A-2EA6-D257-452B4E5A6E57</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -80,7 +76,6 @@
 <importedID>25829991-D926-03D8-6D58-62A54FFE85AE</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <referedAttribute>A31F30E5-66B5-E68F-9B6E-3D6AE49CFFC6</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -97,7 +92,6 @@
 <importedID>B39F384A-9BAA-831F-F57A-63662387F70A</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <referedAttribute>270AE52D-658D-1A19-F8B3-19E7E952E3AB</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -113,7 +107,6 @@
 <importedID>D3075F5B-6267-C5BB-5BDD-7AF32949E457</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -129,7 +122,6 @@
 <importedID>3EAF56BB-F3D7-889F-9361-DBB241B53242</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -145,7 +137,6 @@
 <importedID>F6E73BD4-1B9D-67F0-E93D-A62910EF0803</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -161,7 +152,6 @@
 <importedID>462431E7-82A0-4BB7-8483-220F80E37A87</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -177,7 +167,6 @@
 <importedID>214CB542-7B82-911A-BDB1-D4C38148BB94</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -193,7 +182,6 @@
 <importedID>8495094C-D408-08BE-E0E6-4F178E05321D</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -209,7 +197,6 @@
 <importedID>49F8F8E4-5C9A-A28B-DE72-8C3F4390DDDC</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>

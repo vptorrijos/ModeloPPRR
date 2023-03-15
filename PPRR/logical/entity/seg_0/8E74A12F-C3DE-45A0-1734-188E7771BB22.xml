@@ -5,7 +5,6 @@
 <ownerDesignName>PPRR</ownerDesignName>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -17,14 +16,13 @@
 <normalForm>Third</normalForm>
 <synonymToDisplay>WEATHER</synonymToDisplay>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID TIME" id="811A1134-7D81-750F-B76F-E40AE4991931">
+<Attribute name="iIdCalendar" id="811A1134-7D81-750F-B76F-E40AE4991931">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 14:29:23 UTC</createdTime>
 <generatorID>F336B0F3-5C69-2D14-CEBF-FCF41F262903</generatorID>
 <ownerDesignName>PPRR</ownerDesignName>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <referedAttribute>1AC848FD-DB26-03A7-F903-7183CAFED306</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -32,14 +30,13 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID HOUR" id="BC66E0C7-3726-129D-CDBB-3B7C2DB474E2">
+<Attribute name="iIdHour" id="BC66E0C7-3726-129D-CDBB-3B7C2DB474E2">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-08 11:26:23 UTC</createdTime>
 <generatorID>2F2812C5-79A0-77F2-ADD6-B469471442E4</generatorID>
 <ownerDesignName>PPRR</ownerDesignName>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <referedAttribute>67D7E074-DE58-D2A2-1601-F5A50C1E7BCD</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -47,14 +44,13 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID SUBPARK" id="8EB2725F-E3E0-C8AD-225F-7D07AC8791F5">
+<Attribute name="iIdSubPark" id="8EB2725F-E3E0-C8AD-225F-7D07AC8791F5">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 14:30:45 UTC</createdTime>
 <generatorID>CE8F8B4C-F3DB-A0D4-A21B-34EECD5A5734</generatorID>
 <ownerDesignName>PPRR</ownerDesignName>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <referedAttribute>1172BC3A-D106-D961-CF3D-3EBE1E1F4AA7</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -69,7 +65,6 @@
 <ownerDesignName>PPRR</ownerDesignName>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <referedAttribute>A4FB3E6E-E5A1-BB97-C482-93780817C5F3</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -84,7 +79,6 @@
 <ownerDesignName>PPRR</ownerDesignName>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -99,7 +93,6 @@
 <ownerDesignName>PPRR</ownerDesignName>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -114,7 +107,6 @@
 <ownerDesignName>PPRR</ownerDesignName>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -128,7 +120,6 @@
 <ownerDesignName>PPRR</ownerDesignName>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>

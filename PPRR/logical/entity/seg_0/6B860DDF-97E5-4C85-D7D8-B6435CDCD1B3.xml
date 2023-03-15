@@ -18,7 +18,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID HOUR" id="67D7E074-DE58-D2A2-1601-F5A50C1E7BCD">
+<Attribute name="iIdHour" id="67D7E074-DE58-D2A2-1601-F5A50C1E7BCD">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <commentInRDBMS><![CDATA[Formato HHMMSS]]></commentInRDBMS>
@@ -33,7 +33,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TIME" id="B594B639-DFB3-9B73-8200-C3D58EFF9040">
+<Attribute name="dTime" id="B594B639-DFB3-9B73-8200-C3D58EFF9040">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <commentInRDBMS><![CDATA[01:00:00]]></commentInRDBMS>
@@ -49,7 +49,7 @@
 <logicalDatatype>LOGDT014</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="HOUR" id="CF096491-CC20-1B9B-13F9-293E0CBF6179">
+<Attribute name="iNumHour" id="CF096491-CC20-1B9B-13F9-293E0CBF6179">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <commentInRDBMS><![CDATA[0 - 23]]></commentInRDBMS>
@@ -65,7 +65,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="MINUTE" id="37B0EEAF-7A91-79CF-A673-1C95C5E4DD97">
+<Attribute name="iNumMinute" id="37B0EEAF-7A91-79CF-A673-1C95C5E4DD97">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <commentInRDBMS><![CDATA[0 - 59]]></commentInRDBMS>
@@ -81,7 +81,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SECOND" id="C91E7658-F63C-639F-78A5-FB546015BBAA">
+<Attribute name="iNumSecond" id="C91E7658-F63C-639F-78A5-FB546015BBAA">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <commentInRDBMS><![CDATA[0 - 59]]></commentInRDBMS>
@@ -97,7 +97,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="AM" id="4E7B990F-8FAB-C8D6-C06A-D36BD1378C27">
+<Attribute name="sDesAM" id="4E7B990F-8FAB-C8D6-C06A-D36BD1378C27">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <commentInRDBMS><![CDATA[AM,PM]]></commentInRDBMS>
@@ -114,7 +114,7 @@
 <dataTypeSize>2</dataTypeSize>
 <ownDataTypeParameters>2,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="HOURNAME" id="4EF6E8E0-DE73-A7BF-598E-1405A4F8C615">
+<Attribute name="sDesHour" id="4EF6E8E0-DE73-A7BF-598E-1405A4F8C615">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <comment><![CDATA[XYXZx]]></comment>
@@ -129,10 +129,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>4</dataTypeSize>
-<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="HOURNAMEAM" id="8029A2E8-4252-2255-8FF6-9F9B393B8B87">
+<Attribute name="sDesHourAM" id="8029A2E8-4252-2255-8FF6-9F9B393B8B87">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <commentInRDBMS><![CDATA[12 AM - 12 PM]]></commentInRDBMS>
@@ -146,10 +146,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="MINUTENAME" id="A46E4200-23D4-9ABF-2148-B85E1A831D86">
+<Attribute name="sDesMinute" id="A46E4200-23D4-9ABF-2148-B85E1A831D86">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <commentInRDBMS><![CDATA[23:59]]></commentInRDBMS>
@@ -163,10 +163,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="MINUTEHOURAM" id="F725370E-E457-B9CA-2C43-8EC6B9E44569">
+<Attribute name="sDesMinuteHourAM" id="F725370E-E457-B9CA-2C43-8EC6B9E44569">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -181,6 +181,19 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dRefreshTime" id="80399DC2-4CD2-9BC1-9D3D-BB1EDF4CB19B">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-15 14:21:44 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

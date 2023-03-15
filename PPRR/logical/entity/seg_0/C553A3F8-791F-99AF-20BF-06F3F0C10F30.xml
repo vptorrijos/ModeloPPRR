@@ -7,7 +7,6 @@
 <importedID>D8508E30-C479-6897-1D5D-20D7FDBA0F9C</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -19,7 +18,7 @@
 <normalForm>Third</normalForm>
 <synonymToDisplay>GA_ECOMMERCE</synonymToDisplay>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID TIME" id="4D27BE02-B026-8749-34B0-2575699A9521">
+<Attribute name="iIdCalendar" id="4D27BE02-B026-8749-34B0-2575699A9521">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <generatorID>43098D0C-0588-E21A-CD13-37938AB01045</generatorID>
@@ -28,7 +27,6 @@
 <importedID>92BDB4BB-85F8-B8EB-BD83-1249A64571C3</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <referedAttribute>1AC848FD-DB26-03A7-F903-7183CAFED306</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -36,7 +34,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID SUBPARK" id="733A2298-EC0A-C8C0-89D2-1E96C28C44E9">
+<Attribute name="iIdSubPark" id="733A2298-EC0A-C8C0-89D2-1E96C28C44E9">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <generatorID>9DEE005D-78EC-2B68-006A-7FB50E2DEC31</generatorID>
@@ -45,7 +43,6 @@
 <importedID>4BE6DB9E-0948-F025-96A6-7374EC512690</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <referedAttribute>1172BC3A-D106-D961-CF3D-3EBE1E1F4AA7</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -62,7 +59,6 @@
 <importedID>2CDFF661-26F2-6929-A280-38E2AA0C6BC1</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <referedAttribute>270AE52D-658D-1A19-F8B3-19E7E952E3AB</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -78,7 +74,6 @@
 <importedID>7F99BCEA-B203-F2C9-8015-4D15B059B1C9</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -94,7 +89,6 @@
 <importedID>E48AFB9C-5AEC-DFE9-8EF4-3C5DD04AFFEE</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -110,7 +104,6 @@
 <importedID>B89B85DC-FAD9-0545-D94A-69CC70E9ADDC</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -126,7 +119,6 @@
 <importedID>E6BE552E-8BE1-A52E-D8F9-06C4B5450E11</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
