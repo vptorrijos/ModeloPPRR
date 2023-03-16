@@ -219,7 +219,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="sIndWeekEaster" id="76FD1FD9-3BF8-05A8-F591-42819D559D55">
+<Attribute name="bIndWeekEaster" id="76FD1FD9-3BF8-05A8-F591-42819D559D55">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -574,7 +574,7 @@
 <dataTypeSize>3</dataTypeSize>
 <ownDataTypeParameters>3,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="sIndWeekEasterUsa" id="4C247AA7-00F4-5F0D-9CDC-235D3F3EA995">
+<Attribute name="bIndWeekEasterUsa" id="4C247AA7-00F4-5F0D-9CDC-235D3F3EA995">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>

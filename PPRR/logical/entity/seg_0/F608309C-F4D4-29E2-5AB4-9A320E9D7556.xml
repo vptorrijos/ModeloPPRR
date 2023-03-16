@@ -407,7 +407,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="iIndBAccounting" id="E4A3E45B-F70B-317C-FD7F-6C7D9FC66811">
+<Attribute name="bIndBAccounting" id="E4A3E45B-F70B-317C-FD7F-6C7D9FC66811">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -419,10 +419,10 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT006</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="iIndTickChannel" id="F8A7138B-5502-6313-EF6F-63F51280C4F3">
+<Attribute name="bIndTickChannel" id="F8A7138B-5502-6313-EF6F-63F51280C4F3">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -434,7 +434,7 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT006</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="sCodNomenclature" id="C9CC2A9F-4417-A47D-33E7-40163A1A1DB8">
@@ -452,7 +452,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="iIndBApplyCPDV" id="D7EF2EA3-F1BD-16CE-2C52-B24D918C5CC9">
+<Attribute name="bIndBApplyCPDV" id="D7EF2EA3-F1BD-16CE-2C52-B24D918C5CC9">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -464,7 +464,7 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT006</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="sCodDivision" id="9D0E1F34-2C91-DD21-4B83-F808C09CB55F">
