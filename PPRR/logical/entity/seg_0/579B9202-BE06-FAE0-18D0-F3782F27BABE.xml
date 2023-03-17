@@ -8,7 +8,6 @@
 <importedID>FA9132C9-A79F-E056-9244-1DA3C6AB4C5D</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -19,7 +18,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID CURRENCY" id="270AE52D-658D-1A19-F8B3-19E7E952E3AB">
+<Attribute name="iIdCurrency" id="270AE52D-658D-1A19-F8B3-19E7E952E3AB">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -27,14 +26,13 @@
 <importedID>B79A21FA-E328-68A0-CF6C-D1A72C0C6D23</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD CURRENCY" id="ACF27603-9240-1F3A-D524-4AFABCEB6FFA">
+<Attribute name="sCodCurrency" id="ACF27603-9240-1F3A-D524-4AFABCEB6FFA">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -42,7 +40,6 @@
 <importedID>958ED708-5A2F-6700-614A-4BC1C024B28E</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -50,7 +47,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD COUNTRY" id="63BE1F22-4855-B8A1-69C1-2C4809F45703">
+<Attribute name="sCodCountry" id="63BE1F22-4855-B8A1-69C1-2C4809F45703">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -58,7 +55,6 @@
 <importedID>28A071E7-2403-7FAB-C3C9-E6DDA6EFE772</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -66,7 +62,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID TIME" id="F0C77ACF-9047-2BAC-4F76-AC32B402A1F1">
+<Attribute name="iIdCalendar" id="F0C77ACF-9047-2BAC-4F76-AC32B402A1F1">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -74,7 +70,6 @@
 <importedID>D858D725-C9B8-E2CC-4217-CCD1598BFE82</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -82,7 +77,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TYPE OF CHANGE" id="46420881-423B-D592-FEA9-266951A8B090">
+<Attribute name="dAmtExchangeRate" id="46420881-423B-D592-FEA9-266951A8B090">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -90,17 +85,16 @@
 <importedID>3BAFEE47-FFC5-51B1-FACD-75FAFEE80528</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>18</dataTypePrecision>
-<dataTypeScale>4</dataTypeScale>
-<ownDataTypeParameters>,18,4</ownDataTypeParameters>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,12,6</ownDataTypeParameters>
 </Attribute>
-<Attribute name="LOAD DATE" id="BC7CE79B-7BE6-6F68-CCF3-2C27939FFB4E">
+<Attribute name="dLoad" id="BC7CE79B-7BE6-6F68-CCF3-2C27939FFB4E">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -108,7 +102,6 @@
 <importedID>24CF3C91-82DA-19C6-8545-3C3525D2CF4D</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -116,7 +109,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="UPDATE DATE" id="365B238C-149A-FC8D-8210-684C57E0476A">
+<Attribute name="dUpdate" id="365B238C-149A-FC8D-8210-684C57E0476A">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -124,7 +117,6 @@
 <importedID>7BBDE938-D6AD-ED8E-552B-9422D940F9BC</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -142,7 +134,6 @@
 <importedID>2A0FD44B-1D9C-D347-45A1-D53465BAA7BC</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

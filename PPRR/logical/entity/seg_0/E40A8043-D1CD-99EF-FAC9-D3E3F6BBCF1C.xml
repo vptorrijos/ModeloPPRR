@@ -83,7 +83,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID CURRENCY" id="EA27151D-175B-28C0-553B-0BBBEA0EBA72">
+<Attribute name="iIdCurrency" id="EA27151D-175B-28C0-553B-0BBBEA0EBA72">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <generatorID>E0F77AE7-D9F5-E542-9F0A-70DB504A2941</generatorID>

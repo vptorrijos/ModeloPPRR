@@ -497,6 +497,19 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="bIndEnable" id="62EEAD31-8A55-000D-D325-611948771FAF">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-16 15:55:20 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="dLoad" id="FB6B664C-1DFA-1A1A-9668-3D5BCC441FA7">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
