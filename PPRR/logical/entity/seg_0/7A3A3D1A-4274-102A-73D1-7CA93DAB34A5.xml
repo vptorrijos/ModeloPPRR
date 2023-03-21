@@ -51,7 +51,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID SUBCHANNEL" id="5254EA3C-1890-ED1A-8E27-75FE786E39A9">
+<Attribute name="iIdSubChannel" id="5254EA3C-1890-ED1A-8E27-75FE786E39A9">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <generatorID>DECA5FBD-34A5-9E17-41A2-41035A27116F</generatorID>
