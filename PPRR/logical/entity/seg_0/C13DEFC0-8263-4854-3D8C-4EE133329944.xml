@@ -76,7 +76,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SDesDescriptiveSPA" id="7C6DE9F2-83E1-C916-9408-AF894C742A5B">
+<Attribute name="sDesDescriptiveSPA" id="7C6DE9F2-83E1-C916-9408-AF894C742A5B">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
