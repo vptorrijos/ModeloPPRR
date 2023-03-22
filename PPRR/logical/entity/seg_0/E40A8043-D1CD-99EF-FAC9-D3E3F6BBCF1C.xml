@@ -51,7 +51,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID COST CENTER" id="290826BA-C2C5-9706-65E6-5104F937E87A">
+<Attribute name="iIdCostCenter" id="290826BA-C2C5-9706-65E6-5104F937E87A">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <generatorID>4F5B9845-5B8D-2DC8-10B0-7A78A49B4DE5</generatorID>
