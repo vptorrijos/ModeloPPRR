@@ -17,7 +17,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID TICKET TYPE" id="A31F30E5-66B5-E68F-9B6E-3D6AE49CFFC6">
+<Attribute name="iIdTicketType" id="A31F30E5-66B5-E68F-9B6E-3D6AE49CFFC6">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <commentInRDBMS><![CDATA[Prueba de cambios]]></commentInRDBMS>
@@ -32,7 +32,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD TICKET TYPE" id="236471FF-F476-0317-8CBB-8042DA7FDE12">
+<Attribute name="sCodTicketType" id="236471FF-F476-0317-8CBB-8042DA7FDE12">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -47,7 +47,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DES TICKET TYPE" id="1C8CFED3-F897-6A44-E351-DDFE057B3D60">
+<Attribute name="sDesTicketType" id="1C8CFED3-F897-6A44-E351-DDFE057B3D60">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -62,7 +62,21 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="LOAD DATE" id="E32CCEBB-C778-12AD-9C49-DD6141E2EA6D">
+<Attribute name="sDesTicketTypeSPA" id="FD9D1D56-1136-8CC8-BFE5-76CB336248A1">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-23 10:55:45 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dLoad" id="E32CCEBB-C778-12AD-9C49-DD6141E2EA6D">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -77,7 +91,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="UPDATE DATE" id="879DE4FD-B2A8-EB91-2273-9B6DC6CB5791">
+<Attribute name="dUpdate" id="879DE4FD-B2A8-EB91-2273-9B6DC6CB5791">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
