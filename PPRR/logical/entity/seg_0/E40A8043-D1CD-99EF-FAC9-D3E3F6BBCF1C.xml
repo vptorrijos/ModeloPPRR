@@ -67,7 +67,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID METEOROLOGY" id="7B43796C-1A54-F7BC-1A2B-73EE6506FB06">
+<Attribute name="iIdMeteorology" id="7B43796C-1A54-F7BC-1A2B-73EE6506FB06">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <generatorID>7356717A-B6D2-C169-B749-08F2A3B77EFF</generatorID>

@@ -67,7 +67,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID TICKET TYPE" id="53EF5A21-834A-E807-ECF4-1CC3CEFC978E">
+<Attribute name="iIdTicketType" id="53EF5A21-834A-E807-ECF4-1CC3CEFC978E">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <generatorID>5B79CCC6-6F9A-545D-FDB4-337409A426F8</generatorID>

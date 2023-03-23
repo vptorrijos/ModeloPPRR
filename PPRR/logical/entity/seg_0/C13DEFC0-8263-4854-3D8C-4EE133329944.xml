@@ -91,6 +91,19 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="sDesDescriptiveWorkDay" id="EB7D1F1F-8AD3-8384-DDFA-FFD8CD45062F">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-22 15:52:19 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="sCodSpanishAccount" id="DBC3F48F-F458-4F4B-9087-686D9258905D">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
