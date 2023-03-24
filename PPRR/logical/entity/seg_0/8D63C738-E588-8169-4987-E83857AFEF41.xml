@@ -68,7 +68,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID STAGE" id="DC434C10-D3EB-B99E-B5F2-F680DE3774FA">
+<Attribute name="iIdStage" id="DC434C10-D3EB-B99E-B5F2-F680DE3774FA">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <generatorID>E865F8E8-C25A-5EE2-5717-42F0414EFD3D</generatorID>
@@ -84,7 +84,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID PAIDMEDIA CHANNEL" id="40071B6D-6103-7E71-B592-89305C5877DE">
+<Attribute name="iIdPaidMediaChannel" id="40071B6D-6103-7E71-B592-89305C5877DE">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <generatorID>719D968F-9679-6E31-9AE4-3F9DD0B0E4ED</generatorID>

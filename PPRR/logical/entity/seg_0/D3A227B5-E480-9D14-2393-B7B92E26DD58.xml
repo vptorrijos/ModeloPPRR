@@ -7,7 +7,6 @@
 <importedID>39D13F8F-92FE-DFD4-A493-3D50C65D5BA1</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -19,7 +18,7 @@
 <normalForm>Third</normalForm>
 <synonymToDisplay>DIM STAGE</synonymToDisplay>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID STAGE" id="19D73653-0F54-C746-696C-D26A31E0A5AA">
+<Attribute name="iIdStage" id="19D73653-0F54-C746-696C-D26A31E0A5AA">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -27,14 +26,13 @@
 <importedID>3F757EA5-0A84-E790-F29E-BBFAD6071E76</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD STAGE" id="AC3CA0D9-348D-46A7-8F82-25777B4F0702">
+<Attribute name="sCodStage" id="AC3CA0D9-348D-46A7-8F82-25777B4F0702">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -42,7 +40,6 @@
 <importedID>C75FF0C5-DAAF-B3DD-618B-D0EC6133DA2E</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -50,7 +47,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DES STAGE" id="FAE580E1-9E27-B269-E570-51F1D5801C77">
+<Attribute name="sDesStage" id="FAE580E1-9E27-B269-E570-51F1D5801C77">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -58,7 +55,6 @@
 <importedID>57DB00B5-08E7-1EC5-BE20-F48DC423B9B5</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -66,7 +62,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="LOAD DATE" id="FE626CD6-AE3C-A95E-55F0-EE0ABABA0A7C">
+<Attribute name="dLoad" id="FE626CD6-AE3C-A95E-55F0-EE0ABABA0A7C">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -74,7 +70,6 @@
 <importedID>E645F490-3CAB-760E-F935-461A1473D786</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -82,7 +77,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="UPDATE DATE" id="92320107-CA38-1EC8-EADB-6E2714BA72C3">
+<Attribute name="dUpdate" id="92320107-CA38-1EC8-EADB-6E2714BA72C3">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -90,7 +85,6 @@
 <importedID>64B4E64D-1C83-F12C-6965-E56FAAC81C07</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -108,7 +102,6 @@
 <importedID>FE89AF3E-F21D-1A64-DDD2-2F6614D5E4B0</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

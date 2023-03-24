@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID WEATHER CONDITION" id="A4FB3E6E-E5A1-BB97-C482-93780817C5F3">
+<Attribute name="iIdWeatherCondition" id="A4FB3E6E-E5A1-BB97-C482-93780817C5F3">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 14:31:53 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD WEATHER CONDITION" id="DA4DC8D3-B6B8-AB0B-6DB4-5BB5CFD0F472">
+<Attribute name="sCodWeatherCondition" id="DA4DC8D3-B6B8-AB0B-6DB4-5BB5CFD0F472">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-03 09:04:31 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -40,7 +40,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DES WEATHER CONDITION" id="F07CE6F3-80E7-7BC6-D0D9-7E4C99CAA84A">
+<Attribute name="sDesWeatherCondition" id="F07CE6F3-80E7-7BC6-D0D9-7E4C99CAA84A">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 14:31:53 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -53,7 +53,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="LOAD DATE" id="7902D498-29C7-DA48-072B-9DEC12C6D12A">
+<Attribute name="dLoad" id="7902D498-29C7-DA48-072B-9DEC12C6D12A">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 14:31:53 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -66,7 +66,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="UPDATE DATE" id="62A044A8-2F6D-71DD-9F6F-A2045D58369F">
+<Attribute name="dUpdate" id="62A044A8-2F6D-71DD-9F6F-A2045D58369F">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 14:31:53 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>

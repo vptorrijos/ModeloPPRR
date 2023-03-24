@@ -58,7 +58,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID WEATHER CONDITION" id="AED5611F-7248-7EDA-4F0E-A1B8D3911FA6">
+<Attribute name="iIdWeatherCondition" id="AED5611F-7248-7EDA-4F0E-A1B8D3911FA6">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 14:33:07 UTC</createdTime>
 <generatorID>22A5FE05-0CB8-57A5-BF51-FF221E43A9BC</generatorID>

@@ -7,7 +7,6 @@
 <importedID>9D25F8C7-EA7A-502C-C4D6-A514F2D47D8E</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -18,7 +17,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID PAIDMEDIA CHANNEL" id="D85CF974-886A-AF63-DBA1-40E6C82C9599">
+<Attribute name="iIdPaidMediaChannel" id="D85CF974-886A-AF63-DBA1-40E6C82C9599">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -26,14 +25,13 @@
 <importedID>75FD1CC2-C0A4-EBDF-4198-A5F7997A0231</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD PAIDMEDIA CHANNEL" id="2D52A901-1C72-FDF3-DAA5-92DB524DA3C4">
+<Attribute name="sCodPaidMediaChannel" id="2D52A901-1C72-FDF3-DAA5-92DB524DA3C4">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -41,7 +39,6 @@
 <importedID>6703AA9F-A515-D780-BFDE-1AF2F2CA515B</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -49,7 +46,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DES PAIMEDIA CHANNEL" id="124DFBBE-6F4B-7CAE-916B-1452DD57CFB6">
+<Attribute name="sDesPaidMediaChannel" id="124DFBBE-6F4B-7CAE-916B-1452DD57CFB6">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -57,7 +54,6 @@
 <importedID>6418E462-E37E-0AD5-79C4-53C21EB58394</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -65,7 +61,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="LOAD DATE" id="C55CF6C4-9496-4ECD-253F-367A4AA820C2">
+<Attribute name="dLoad" id="C55CF6C4-9496-4ECD-253F-367A4AA820C2">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -73,7 +69,6 @@
 <importedID>E9DD25B7-AA97-2D6D-2439-6F4B4CD86B22</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -81,7 +76,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="UPDATE DATE" id="1C9A58DE-A4B9-4212-046A-5E2BA2203381">
+<Attribute name="dUpdate" id="1C9A58DE-A4B9-4212-046A-5E2BA2203381">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -89,7 +84,6 @@
 <importedID>E180C73B-DB60-C138-1FB6-1481C3E0D385</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -107,7 +101,6 @@
 <importedID>57B9ED56-CA81-6127-F1DF-E2A5C7C7DBC4</importedID>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
-<item key="D8D695D2-3D03-8085-813E-4D446C8B6EE3" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
