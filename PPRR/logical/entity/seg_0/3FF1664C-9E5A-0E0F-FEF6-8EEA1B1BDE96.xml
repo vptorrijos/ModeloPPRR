@@ -16,105 +16,113 @@
 <normalForm>Third</normalForm>
 <synonymToDisplay>REVENUE VECTOR</synonymToDisplay>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="iIdFare" id="D575866B-4A00-D224-B5DD-30228A8DC3DC">
+<Attribute name="iIdFare" id="8EDD1C57-0346-7810-9AB4-ED74905AD6FB">
 <createdBy>jose.nacar</createdBy>
-<createdTime>2023-03-24 12:44:05 UTC</createdTime>
+<createdTime>2023-03-27 08:43:21 UTC</createdTime>
+<generatorID>4D5125EE-979E-CF56-61F4-72C0CDD7F249</generatorID>
 <ownerDesignName>PPRR</ownerDesignName>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B4731E20-29CA-C3DD-F27E-4B3184258D0F</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="iIdProduct" id="8F05B325-B3AC-B030-6314-6E2A23FC8903">
+<Attribute name="iIdProduct" id="7FB29218-A26B-AE1A-BE0A-764A9AFEF9CC">
 <createdBy>jose.nacar</createdBy>
-<createdTime>2023-03-24 12:44:31 UTC</createdTime>
+<createdTime>2023-03-27 08:43:27 UTC</createdTime>
+<generatorID>F2FCB035-F211-8DEC-554A-A8AFAF8D3E89</generatorID>
 <ownerDesignName>PPRR</ownerDesignName>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>39D36E8F-EED9-5BF1-B671-223B3E05598B</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="iIdSubPark" id="91475F06-EA27-A468-7892-5DBA80AE1858">
+<Attribute name="iIdSubPark" id="F2337EE1-7984-CF08-A1EA-763D6F3DA89B">
 <createdBy>jose.nacar</createdBy>
-<createdTime>2023-03-24 12:48:25 UTC</createdTime>
+<createdTime>2023-03-27 07:45:41 UTC</createdTime>
+<generatorID>8105A230-DC74-47E2-CDAC-423D6F084775</generatorID>
 <ownerDesignName>PPRR</ownerDesignName>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1172BC3A-D106-D961-CF3D-3EBE1E1F4AA7</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="iDateSale" id="BEE4A6A5-AC28-6558-EA78-B33F9AA99A51">
+<Attribute name="iDateSale" id="FE9F0350-FC7B-4FCE-AA9B-A86AFBC4394E">
 <createdBy>jose.nacar</createdBy>
-<createdTime>2023-03-24 12:49:18 UTC</createdTime>
+<createdTime>2023-03-27 07:45:54 UTC</createdTime>
+<generatorID>AB412D25-2143-8D8E-5592-84504B94B4C4</generatorID>
 <ownerDesignName>PPRR</ownerDesignName>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1AC848FD-DB26-03A7-F903-7183CAFED306</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="iDateRedeem" id="37EA5CCF-B942-38E4-43B5-2FA38139C3A3">
+<Attribute name="iDateRedeem" id="D3B24B5E-94A2-A236-7B50-FE78B3B423D4">
 <createdBy>jose.nacar</createdBy>
-<createdTime>2023-03-24 12:50:56 UTC</createdTime>
+<createdTime>2023-03-27 07:46:01 UTC</createdTime>
+<generatorID>FB5F3309-D943-DDB2-1C48-69735D7D9DD1</generatorID>
 <ownerDesignName>PPRR</ownerDesignName>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1AC848FD-DB26-03A7-F903-7183CAFED306</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="iIdCostCenter" id="FCBBBC1C-0F85-E3E0-1DA1-18A082891C12">
+<Attribute name="iIdCostCenter" id="FEB8F510-DFA3-6C57-A8C9-A5E36A651E49">
 <createdBy>jose.nacar</createdBy>
-<createdTime>2023-03-24 12:52:10 UTC</createdTime>
+<createdTime>2023-03-27 07:45:12 UTC</createdTime>
+<generatorID>12A9AF1A-6913-BA34-E6F1-BEC29DCB2CF5</generatorID>
 <ownerDesignName>PPRR</ownerDesignName>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>34F4D3C4-19A8-6036-4A18-0D94B43C1ABB</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="iIdTicketType" id="B202BCA7-3913-EB71-5399-16DAF306FB86">
+<Attribute name="iIdTicketType" id="EB2242CB-A46F-3B0A-6FB2-5FE65578C5B7">
 <createdBy>jose.nacar</createdBy>
-<createdTime>2023-03-24 12:52:57 UTC</createdTime>
+<createdTime>2023-03-27 07:44:52 UTC</createdTime>
+<generatorID>932AF251-F7D8-AD80-C183-3AF4EF75EB3F</generatorID>
 <ownerDesignName>PPRR</ownerDesignName>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A31F30E5-66B5-E68F-9B6E-3D6AE49CFFC6</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="iIdPromotion" id="E320E5DB-9BC5-F958-1013-EC3FCA1389A8">
+<Attribute name="iIdPromotion" id="BF388B26-412D-3F65-C30A-5B5AF5354CC2">
 <createdBy>jose.nacar</createdBy>
-<createdTime>2023-03-24 12:53:38 UTC</createdTime>
+<createdTime>2023-03-27 08:46:01 UTC</createdTime>
+<generatorID>FA4B4EFC-315C-7625-9D07-7AD8BE02A548</generatorID>
 <ownerDesignName>PPRR</ownerDesignName>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>458A6E82-BFB8-39AA-0A41-A768AE9A77B2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -178,14 +186,15 @@
 <dataTypeScale>6</dataTypeScale>
 <ownDataTypeParameters>,12,6</ownDataTypeParameters>
 </Attribute>
-<Attribute name="iCodSource" id="5C15B90F-20EF-C16D-8E4E-692D95F96CC8">
+<Attribute name="iIdSource" id="AD1383F2-8BB5-E7F3-B08B-9B5EB0B5985E">
 <createdBy>jose.nacar</createdBy>
-<createdTime>2023-03-24 12:59:02 UTC</createdTime>
+<createdTime>2023-03-27 08:51:03 UTC</createdTime>
+<generatorID>0FBC231A-FE46-A56C-3A40-0AAF16FFB718</generatorID>
 <ownerDesignName>PPRR</ownerDesignName>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>CBEA0BAC-027C-502B-A16E-9E0C5277198A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
