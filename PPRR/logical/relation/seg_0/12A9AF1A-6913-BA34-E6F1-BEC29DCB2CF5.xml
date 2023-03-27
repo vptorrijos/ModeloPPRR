@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FAC_REVENUE_VECTOR_DIM_COST_CENTER_FK" directorySegmentName="seg_0" id="12A9AF1A-6913-BA34-E6F1-BEC29DCB2CF5">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-03-27 07:45:12 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
+</engineerTo>
+<sourcePk>E159C55F-9622-80F1-ED63-82D9C7E6A929</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C13DEFC0-8263-4854-3D8C-4EE133329944</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3FF1664C-9E5A-0E0F-FEF6-8EEA1B1BDE96</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
