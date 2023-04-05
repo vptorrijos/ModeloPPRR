@@ -334,6 +334,20 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="iIdSubPark1" id="2D9E26AB-42B9-4C9B-E81A-D53FDEC2E5C0">
+<createdBy>vparra</createdBy>
+<createdTime>2023-04-05 11:07:53 UTC</createdTime>
+<generatorID>E82379C5-16AA-5C46-263A-683D59C442C2</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
+</engineerTo>
+<referedAttribute>1172BC3A-D106-D961-CF3D-3EBE1E1F4AA7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="70590F9B-795D-215F-F1BE-2ADC8828ACFA" name="FAC REVENUE VECTOR PK">
