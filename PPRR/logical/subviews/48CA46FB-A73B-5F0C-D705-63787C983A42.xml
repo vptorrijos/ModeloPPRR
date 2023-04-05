@@ -67,7 +67,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="6B4399DF-9378-D6BF-78BC-6CD86355ED8F" otype="Entity" vid="ED080BCE-8E2C-C2A9-5B13-030F1D761EE3">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1201" y="1023" width="170" height="110"/>
+<bounds x="1170" y="1066" width="170" height="110"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="6B860DDF-97E5-4C85-D7D8-B6435CDCD1B3" otype="Entity" vid="80267DF6-C04B-A42E-6092-B7C95D7D4C59">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -201,8 +201,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1220" y="1023"/>
-<point x="1220" y="583"/>
+<point x="1204" y="1066"/>
+<point x="1204" y="583"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="0FBC231A-FE46-A56C-3A40-0AAF16FFB718" otype="Relation" vid_source="A81C4068-BAF7-BDA8-0044-228751294169" vid_target="2CD842AD-2371-7724-5746-111C8594B2FA">
