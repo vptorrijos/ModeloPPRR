@@ -207,7 +207,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nIdVoucher" id="B423F4CD-EC15-A31B-0A3F-1BD720AA8C29">
+<Attribute name="iIdBonHolder" id="B423F4CD-EC15-A31B-0A3F-1BD720AA8C29">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-04-05 06:52:18 UTC</createdTime>
 <generatorID>0C76C812-A63E-359C-E068-2BCED2D9E50E</generatorID>
@@ -218,7 +218,7 @@
 <referedAttribute>B42120D1-30E3-42F8-3B7C-9269279305CA</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="iIdPaymentMethod" id="44A4646F-050D-40D0-1F80-38F73E2A0FB6">

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6B4399DF-9378-D6BF-78BC-6CD86355ED8F" name="DIM VOUCHER">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6B4399DF-9378-D6BF-78BC-6CD86355ED8F" name="DIM BONHOLDER">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-04-05 06:43:40 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="nIdVoucher" id="B42120D1-30E3-42F8-3B7C-9269279305CA">
+<Attribute name="iIdBonHolder" id="B42120D1-30E3-42F8-3B7C-9269279305CA">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-04-05 06:43:40 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -26,10 +26,10 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="iCodVoucher" id="B891BF0A-A576-EA2E-31A1-CE872E6EE87E">
+<Attribute name="iCodBonHolder" id="B891BF0A-A576-EA2E-31A1-CE872E6EE87E">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-04-05 06:43:40 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -43,7 +43,7 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="sDesVoucher" id="54D11548-8A4B-EB44-2FB3-2D5589FAAF5E">
+<Attribute name="sDesBonHolder" id="54D11548-8A4B-EB44-2FB3-2D5589FAAF5E">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-04-05 06:43:40 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
