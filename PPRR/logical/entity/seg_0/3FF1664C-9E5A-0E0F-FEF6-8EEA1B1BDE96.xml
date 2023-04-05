@@ -86,6 +86,20 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="iIdBonHolder" id="45AFBC93-0AAF-74CE-BCE6-756EFB5203F5">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-04-05 10:46:34 UTC</createdTime>
+<generatorID>F7E015D2-0EA8-59F9-4CB7-99ACD62D7B96</generatorID>
+<ownerDesignName>PPRR</ownerDesignName>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
+</engineerTo>
+<referedAttribute>5207E797-45A3-C7AF-FF4A-7108538F134D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="sCodTransaction" id="75632182-1F20-0FF3-217F-3DC818CC8DFD">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-04-05 06:21:20 UTC</createdTime>
@@ -202,20 +216,6 @@
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
 </engineerTo>
 <referedAttribute>5CB18419-9D8F-A134-696C-41D793C5165F</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="iIdBonHolder" id="B423F4CD-EC15-A31B-0A3F-1BD720AA8C29">
-<createdBy>jose.nacar</createdBy>
-<createdTime>2023-04-05 06:52:18 UTC</createdTime>
-<generatorID>0C76C812-A63E-359C-E068-2BCED2D9E50E</generatorID>
-<ownerDesignName>PPRR</ownerDesignName>
-<engineerTo>
-<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
-</engineerTo>
-<referedAttribute>B42120D1-30E3-42F8-3B7C-9269279305CA</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
