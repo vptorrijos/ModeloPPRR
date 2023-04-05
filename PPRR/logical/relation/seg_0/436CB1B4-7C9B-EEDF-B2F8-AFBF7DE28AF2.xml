@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FAC_REVENUE_VECTOR_DIM_PAYMENT_METHOD_FK" directorySegmentName="seg_0" id="932AF251-F7D8-AD80-C183-3AF4EF75EB3F">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FAC_REVENUE_VECTOR_DIM_PAYMENT_METHOD_FKv1" directorySegmentName="seg_0" id="436CB1B4-7C9B-EEDF-B2F8-AFBF7DE28AF2">
 <createdBy>jose.nacar</createdBy>
-<createdTime>2023-03-27 07:44:52 UTC</createdTime>
+<createdTime>2023-04-05 07:03:56 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
 </engineerTo>
-<sourcePk>A366C925-3B16-421E-685A-18137D03E255</sourcePk>
+<sourcePk>8CC78C89-C393-D27C-468A-09E113269813</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>A9FB6BE9-1678-DBF6-8F1A-CEDBB16D7243</sourceEntity>
+<sourceEntity>8C4A1C32-EDD6-F437-DF7F-FB47FC301687</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>3FF1664C-9E5A-0E0F-FEF6-8EEA1B1BDE96</targetEntity>
 <transferable>true</transferable>
