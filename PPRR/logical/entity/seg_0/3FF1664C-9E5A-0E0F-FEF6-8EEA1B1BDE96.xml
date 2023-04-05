@@ -323,6 +323,7 @@
 <Attribute name="dUpdate" id="2D2BA534-AC09-F71C-7700-42D8E51DCD74">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-24 12:58:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[xxx]]></commentInRDBMS>
 <ownerDesignName>PPRR</ownerDesignName>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="true"/>
