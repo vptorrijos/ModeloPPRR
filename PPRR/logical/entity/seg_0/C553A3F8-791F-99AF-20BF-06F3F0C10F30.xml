@@ -66,7 +66,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Transaction" id="BFE035DE-65F4-130A-9193-7334BC1B8062">
+<Attribute name="iNumTransactions" id="BFE035DE-65F4-130A-9193-7334BC1B8062">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -81,7 +81,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Sessions" id="1D3066A9-35EE-2FF4-86F5-93B09319745D">
+<Attribute name="iNumSessions" id="1D3066A9-35EE-2FF4-86F5-93B09319745D">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -96,7 +96,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Revenue" id="E7F800F1-AC62-4B24-6E8B-65DAC0210EA9">
+<Attribute name="mAmtRevenue" id="E7F800F1-AC62-4B24-6E8B-65DAC0210EA9">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
@@ -108,15 +108,31 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,16,4</ownDataTypeParameters>
 </Attribute>
-<Attribute name="LOAD DATE" id="CD9BA502-304A-D063-7160-96CE14ED5C05">
+<Attribute name="dLoad" id="CD9BA502-304A-D063-7160-96CE14ED5C05">
 <createdBy>jose.nacar</createdBy>
 <createdTime>2023-03-02 10:18:03 UTC</createdTime>
 <ownerDesignName>PPRR</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <importedID>E6BE552E-8BE1-A52E-D8F9-06C4B5450E11</importedID>
+<engineerTo>
+<item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dUpdate" id="F8A104F8-73C1-DED1-5B9D-250C0E7D7DD9">
+<createdBy>jose.nacar</createdBy>
+<createdTime>2023-04-10 08:57:49 UTC</createdTime>
+<ownerDesignName>PPRR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="9E59E082-82DD-F2D2-2CD2-107018C22065" value="false"/>
 </engineerTo>
